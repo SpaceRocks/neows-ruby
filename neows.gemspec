@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'A Ruby interface to the NeoWs API'
   spec.summary       = spec.description
   spec.homepage      = 'https://github.com/SpaceRocks/neows-ruby'
+  spec.licenses      = %w(MIT)
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = 'exe'
   spec.require_paths = %w(lib)

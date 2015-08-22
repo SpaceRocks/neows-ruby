@@ -2,10 +2,10 @@ require 'spec_helper'
 
 describe Neows::Utils do
   describe '#classify_list!' do
-    class UtilsTest; end
+    class UtilsTest; include Neows::Utils; end
     class ListItem; def initialize(_); end; end
 
-    let(:utils) { UtilsTest.include(Neows::Utils).new }
+    let(:utils) { UtilsTest.new }
     let(:list) { utils.classify_list!([1, 2, 3], ListItem) }
 
     it 'instantiates given class for each item' do

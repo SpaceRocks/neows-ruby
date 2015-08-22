@@ -9,8 +9,6 @@ A Ruby interface to the NeoWs API
 ```
 
 ## Configuration
-You can pass configuration options as a block to `Neows::REST::Client.new`.
-
 ```ruby
 client = Neows::REST::Client.new
 ```
