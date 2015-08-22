@@ -1,4 +1,7 @@
-# Neows Ruby Gem
+[![Build Status](https://travis-ci.org/SpaceRocks/neows-ruby.svg?branch=master)](https://travis-ci.org/SpaceRocks/neows-ruby)
+[![Coverage Status](https://coveralls.io/repos/SpaceRocks/neows-ruby/badge.svg?branch=master&service=github)](https://coveralls.io/github/SpaceRocks/neows-ruby?branch=master)
+
+# NeoWs Ruby Gem
 
 A Ruby interface to the NeoWs API
 
@@ -49,3 +52,12 @@ client.neo('3724245')
 ```ruby
 client.stats
 ```
+
+## Supported Ruby Versions
+
+This library supports and is tested against the following Ruby versions:
+
+* Ruby 1.9.3
+* Ruby 2.0.0
+* Ruby 2.1
+* Ruby 2.2
