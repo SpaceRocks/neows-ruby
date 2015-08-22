@@ -12,9 +12,7 @@ A Ruby interface to the NeoWs API
 You can pass configuration options as a block to `Neows::REST::Client.new`.
 
 ```ruby
-client = Neows::REST::Client.new do |config|
-  config.base_url = "YOUR_CONSUMER_KEY"
-end
+client = Neows::REST::Client.new
 ```
 
 ## Usage Examples
