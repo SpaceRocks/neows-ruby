@@ -1,0 +1,11 @@
+{
+  "self": {
+    "href": "http://www.neowsapp.com/rest/v1/feed?start_date=2015-04-01&end_date=2015-04-06"
+  },
+  "next": {
+    "href": "http://www.neowsapp.com/rest/v1/feed?start_date=2015-04-06&end_date=2015-04-13"
+  },
+  "prev": {
+    "href": "http://www.neowsapp.com/rest/v1/feed?start_date=2015-03-25&end_date=2015-04-01"
+  }
+}

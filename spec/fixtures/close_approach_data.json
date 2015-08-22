@@ -1,0 +1,16 @@
+{
+  "close_approach_date": "2015-08-20",
+  "epoch_date_close_approach": 1440054000000,
+  "relative_velocity": {
+    "kms": "23.939825582596",
+    "kph": "86,183.372",
+    "mph": "53,550.996"
+  },
+  "miss_distance": {
+    "astronomical": "0.339940516299694",
+    "lunar": "132.237",
+    "kilometers": "50,854,380",
+    "miles": "31,599,446"
+  },
+  "orbiting_body": "Earth"
+}
