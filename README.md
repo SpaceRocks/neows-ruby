@@ -1,5 +1,12 @@
-[![Build Status](https://travis-ci.org/SpaceRocks/neows-ruby.svg?branch=master)](https://travis-ci.org/SpaceRocks/neows-ruby)
-[![Coverage Status](https://coveralls.io/repos/SpaceRocks/neows-ruby/badge.svg?branch=master&service=github)](https://coveralls.io/github/SpaceRocks/neows-ruby?branch=master)
+[![Gem Version](http://img.shields.io/gem/v/neows.svg)][gem]
+[![Build Status](https://travis-ci.org/SpaceRocks/neows-ruby.svg?branch=master)][travis]
+[![Coverage Status](https://coveralls.io/repos/SpaceRocks/neows-ruby/badge.svg?branch=master&service=github)][coveralls]
+[![Code Climate](https://codeclimate.com/github/SpaceRocks/neows-ruby/badges/gpa.svg)][codeclimate]
+
+[gem]: https://rubygems.org/gems/neows
+[travis]: https://travis-ci.org/SpaceRocks/neows-ruby
+[codeclimate]: https://codeclimate.com/github/SpaceRocks/neows-ruby
+[coveralls]: https://coveralls.io/github/SpaceRocks/neows-ruby?branch=master
 
 # NeoWs Ruby Gem
 
@@ -10,6 +17,15 @@ A Ruby interface to the NeoWs API
 ```
   $ gem install neows
 ```
+
+## Documentation
+
+Gem API: [http://rdoc.info/gems/neows][gem_documentation]
+
+REST API: [http://www.neowsapp.com][gem_documentation]
+
+[gem_documentation]: http://rdoc.info/gems/neows
+[api_documentation]: http://www.neowsapp.com
 
 ## Configuration
 ```ruby
