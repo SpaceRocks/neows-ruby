@@ -22,7 +22,7 @@ A Ruby interface to the NeoWs API
 
 Gem API: [http://rdoc.info/gems/neows][gem_documentation]
 
-REST API: [http://www.neowsapp.com][gem_documentation]
+REST API: [http://www.neowsapp.com][api_documentation]
 
 [gem_documentation]: http://rdoc.info/gems/neows
 [api_documentation]: http://www.neowsapp.com
