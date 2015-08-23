@@ -24,8 +24,8 @@ module Neows
       attribute :nasa_jpl_url, String
 
       # @!attribute [rw]
-      # @return [Integer]
-      attribute :absolute_magnitude_h, Integer
+      # @return [Float]
+      attribute :absolute_magnitude_h, Float
 
       # @!attribute [rw]
       # @return [Neows::Models::EstimatedDiameter]

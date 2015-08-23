@@ -8,7 +8,7 @@ describe Neows::Models::NearEarthObject do
     expect(subject.neo_reference_id).to eq 3724245
     expect(subject.name).to eq '(2015 OQ21)'
     expect(subject.nasa_jpl_url).to eq 'http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3724245'
-    expect(subject.absolute_magnitude_h).to eq 27
+    expect(subject.absolute_magnitude_h).to eq 27.819
     expect(subject.estimated_diameter).to be_a Neows::Models::EstimatedDiameter
     expect(subject.close_approach_data).to be_a Array
     expect(subject.close_approach_data.size).to eq 2
