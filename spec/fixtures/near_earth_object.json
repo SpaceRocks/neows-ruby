@@ -1,7 +1,6 @@
 {
-  "isPotentiallyHazardousAsteroid": false,
-  "link": {
-    "href": "http://www.neowsapp.com/rest/v1/neo/3724245"
+  "links": {
+    "self": "http://www.neowsapp.com/rest/v1/neo/3724245"
   },
   "neo_reference_id": "3724245",
   "name": "(2015 OQ21)",
@@ -9,36 +8,37 @@
   "absolute_magnitude_h": 27.819,
   "estimated_diameter": {
     "kilometers": {
-      "estimated_diameter_min": 0.007256964132794714,
-      "estimated_diameter_max": 0.016227065111206793
+      "estimated_diameter_min": 0.01,
+      "estimated_diameter_max": 0.02
     },
     "meters": {
-      "estimated_diameter_min": 7.256964132794714,
-      "estimated_diameter_max": 16.22706511120679
+      "estimated_diameter_min": 7.26,
+      "estimated_diameter_max": 16.23
     },
     "miles": {
-      "estimated_diameter_min": 0.004509267060158784,
-      "estimated_diameter_max": 0.010083027675215676
+      "estimated_diameter_min": 0,
+      "estimated_diameter_max": 0.01
     },
     "feet": {
-      "estimated_diameter_min": 23.80893820543821,
-      "estimated_diameter_max": 53.238404299451695
+      "estimated_diameter_min": 23.81,
+      "estimated_diameter_max": 53.24
     }
   },
+  "is_potentially_hazardous_asteroid": false,
   "close_approach_data": [
     {
       "close_approach_date": "1953-11-14",
       "epoch_date_close_approach": -509040000000,
       "relative_velocity": {
-        "kms": "6.57260631740581",
-        "kph": "23,661.383",
-        "mph": "14,702.263"
+        "kilometers_per_second": "6.57",
+        "kilometers_per_hour": "23661.38",
+        "miles_per_hour": "14702.26"
       },
       "miss_distance": {
-        "astronomical": "0.13708621675901",
-        "lunar": "53.327",
-        "kilometers": "20,507,806",
-        "miles": "12,742,960"
+        "astronomical": "0.14",
+        "lunar": "54.46",
+        "kilometers": "20943702",
+        "miles": "13013813"
       },
       "orbiting_body": "Venus"
     },
@@ -46,15 +46,15 @@
       "close_approach_date": "1957-06-06",
       "epoch_date_close_approach": -396723600000,
       "relative_velocity": {
-        "kms": "21.8686904059562",
-        "kph": "78,727.285",
-        "mph": "48,918.074"
+        "kilometers_per_second": "21.87",
+        "kilometers_per_hour": "78727.29",
+        "miles_per_hour": "48918.07"
       },
       "miss_distance": {
-        "astronomical": "0.438851530720436",
-        "lunar": "170.713",
-        "kilometers": "65,651,256",
-        "miles": "40,793,800"
+        "astronomical": "0.44",
+        "lunar": "171.16",
+        "kilometers": "65823064",
+        "miles": "40900556"
       },
       "orbiting_body": "Earth"
     }

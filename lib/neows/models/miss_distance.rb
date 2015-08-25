@@ -13,14 +13,12 @@ module Neows
       attribute :lunar, Float
 
       # @!attribute [rw]
-      # @todo Switch from using SanitizedInteger to Integer after API removes commas
       # @return [Integer]
-      attribute :kilometers, Neows::Attributes::SanitizedInteger
+      attribute :kilometers, Integer
 
       # @!attribute [rw]
-      # @todo Switch from using SanitizedInteger to Integer after API removes commas
       # @return [Integer]
-      attribute :miles, Neows::Attributes::SanitizedInteger
+      attribute :miles, Integer
     end
   end
 end

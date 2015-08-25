@@ -9,14 +9,12 @@ module Neows
       attribute :kms, Float
 
       # @!attribute [rw]
-      # @todo Switch from using SanitizedFloat to Float after API removes commas
       # @return [Float]
-      attribute :kph, Neows::Attributes::SanitizedFloat
+      attribute :kph, Float
 
       # @!attribute [rw]
-      # @todo Switch from using SanitizedFloat to Float after API removes commas
       # @return [Float]
-      attribute :mph, Neows::Attributes::SanitizedFloat
+      attribute :mph, Float
     end
   end
 end

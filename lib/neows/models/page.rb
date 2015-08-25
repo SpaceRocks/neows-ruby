@@ -9,13 +9,11 @@ module Neows
 
       # @!attribute [rw] total_elements
       # @return [Integer]
-      attribute :totalElements, Integer
-      alias_method :total_elements, :totalElements
+      attribute :total_elements, Integer
 
       # @!attribute [rw] total_pages
       # @return [Integer]
-      attribute :totalPages, Integer
-      alias_method :total_pages, :totalPages
+      attribute :total_pages, Integer
 
       # @!attribute [rw]
       # @return [Integer]

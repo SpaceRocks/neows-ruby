@@ -2,10 +2,10 @@ require 'neows/models/base_model'
 
 module Neows
   module Models
-    class Link < Neows::Models::BaseModel
+    class SelfLink < Neows::Models::BaseModel
       # @!attribute [rw]
       # @return [String]
-      attribute :href, String
+      attribute :self, String
     end
   end
 end

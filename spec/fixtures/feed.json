@@ -1,11 +1,15 @@
 {
+  "links": {
+    "next": "http://www.neowsapp.com/rest/v1/feed?start_date=2015-04-06&end_date=2015-04-13",
+    "prev": "http://www.neowsapp.com/rest/v1/feed?start_date=2015-03-25&end_date=2015-04-01",
+    "self": "http://www.neowsapp.com/rest/v1/feed?start_date=2015-04-01&end_date=2015-04-06"
+  },
   "element_count": 60,
   "near_earth_objects": {
     "2015-04-06": [
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3714121"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3714121"
         },
         "neo_reference_id": "3714121",
         "name": "(2015 FE36)",
@@ -13,36 +17,37 @@
         "absolute_magnitude_h": 23.1,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.06376097898753805,
-            "estimated_diameter_max": 0.1425738833280708
+            "estimated_diameter_min": 0.06,
+            "estimated_diameter_max": 0.14
           },
           "meters": {
-            "estimated_diameter_min": 63.760978987538046,
-            "estimated_diameter_max": 142.5738833280708
+            "estimated_diameter_min": 63.76,
+            "estimated_diameter_max": 142.57
           },
           "miles": {
-            "estimated_diameter_min": 0.0396192232744655,
-            "estimated_diameter_max": 0.08859127645744669
+            "estimated_diameter_min": 0.04,
+            "estimated_diameter_max": 0.09
           },
           "feet": {
-            "estimated_diameter_min": 209.18957030147433,
-            "estimated_diameter_max": 467.76209937806783
+            "estimated_diameter_min": 209.19,
+            "estimated_diameter_max": 467.76
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-06",
             "epoch_date_close_approach": 1428303600000,
             "relative_velocity": {
-              "kms": "11.893087000347",
-              "kph": "42,815.113",
-              "mph": "26,603.646"
+              "kilometers_per_second": "11.89",
+              "kilometers_per_hour": "42815.11",
+              "miles_per_hour": "26603.65"
             },
             "miss_distance": {
-              "astronomical": "0.156057547473425",
-              "lunar": "60.706",
-              "kilometers": "23,345,878",
-              "miles": "14,506,456"
+              "astronomical": "0.16",
+              "lunar": "62.24",
+              "kilometers": "23935658",
+              "miles": "14872929"
             },
             "orbiting_body": "Earth"
           }
@@ -50,9 +55,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3717082"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3717082"
         },
         "neo_reference_id": "3717082",
         "name": "(2015 HR11)",
@@ -60,36 +64,37 @@
         "absolute_magnitude_h": 20.9,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.17561231848041914,
-            "estimated_diameter_max": 0.39268108180855976
+            "estimated_diameter_min": 0.18,
+            "estimated_diameter_max": 0.39
           },
           "meters": {
-            "estimated_diameter_min": 175.61231848041913,
-            "estimated_diameter_max": 392.6810818085598
+            "estimated_diameter_min": 175.61,
+            "estimated_diameter_max": 392.68
           },
           "miles": {
-            "estimated_diameter_min": 0.10912040194649653,
-            "estimated_diameter_max": 0.2440006364844666
+            "estimated_diameter_min": 0.11,
+            "estimated_diameter_max": 0.24
           },
           "feet": {
-            "estimated_diameter_min": 576.1559189632984,
-            "estimated_diameter_max": 1288.3238004407954
+            "estimated_diameter_min": 576.16,
+            "estimated_diameter_max": 1288.32
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-06",
             "epoch_date_close_approach": 1428303600000,
             "relative_velocity": {
-              "kms": "15.5853656172781",
-              "kph": "56,107.316",
-              "mph": "34,862.904"
+              "kilometers_per_second": "15.59",
+              "kilometers_per_hour": "56107.32",
+              "miles_per_hour": "34862.9"
             },
             "miss_distance": {
-              "astronomical": "0.426955069891283",
-              "lunar": "166.086",
-              "kilometers": "63,871,572",
-              "miles": "39,687,952"
+              "astronomical": "0.43",
+              "lunar": "167.27",
+              "kilometers": "64327088",
+              "miles": "39971000"
             },
             "orbiting_body": "Earth"
           }
@@ -97,9 +102,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3695919"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3695919"
         },
         "neo_reference_id": "3695919",
         "name": "(2014 VG2)",
@@ -107,36 +111,37 @@
         "absolute_magnitude_h": 22.7,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.07665755735310517,
-            "estimated_diameter_max": 0.171411509230632
+            "estimated_diameter_min": 0.08,
+            "estimated_diameter_max": 0.17
           },
           "meters": {
-            "estimated_diameter_min": 76.65755735310518,
-            "estimated_diameter_max": 171.411509230632
+            "estimated_diameter_min": 76.66,
+            "estimated_diameter_max": 171.41
           },
           "miles": {
-            "estimated_diameter_min": 0.04763278307005631,
-            "estimated_diameter_max": 0.10651014090214704
+            "estimated_diameter_min": 0.05,
+            "estimated_diameter_max": 0.11
           },
           "feet": {
-            "estimated_diameter_min": 251.50118046636157,
-            "estimated_diameter_max": 562.3737359442267
+            "estimated_diameter_min": 251.5,
+            "estimated_diameter_max": 562.37
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-06",
             "epoch_date_close_approach": 1428303600000,
             "relative_velocity": {
-              "kms": "3.32581848288572",
-              "kph": "11,972.947",
-              "mph": "7,439.523"
+              "kilometers_per_second": "3.33",
+              "kilometers_per_hour": "11972.95",
+              "miles_per_hour": "7439.52"
             },
             "miss_distance": {
-              "astronomical": "0.176569723376526",
-              "lunar": "68.686",
-              "kilometers": "26,414,456",
-              "miles": "16,413,182"
+              "astronomical": "0.18",
+              "lunar": "70.02",
+              "kilometers": "26927618",
+              "miles": "16732046"
             },
             "orbiting_body": "Earth"
           }
@@ -144,9 +149,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3720887"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3720887"
         },
         "neo_reference_id": "3720887",
         "name": "(2015 KT157)",
@@ -154,36 +158,37 @@
         "absolute_magnitude_h": 22.8,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.07320739893472838,
-            "estimated_diameter_max": 0.16369672047399836
+            "estimated_diameter_min": 0.07,
+            "estimated_diameter_max": 0.16
           },
           "meters": {
-            "estimated_diameter_min": 73.20739893472839,
-            "estimated_diameter_max": 163.69672047399837
+            "estimated_diameter_min": 73.21,
+            "estimated_diameter_max": 163.7
           },
           "miles": {
-            "estimated_diameter_min": 0.04548895468347111,
-            "estimated_diameter_max": 0.10171639489764883
+            "estimated_diameter_min": 0.05,
+            "estimated_diameter_max": 0.1
           },
           "feet": {
-            "estimated_diameter_min": 240.18176272101428,
-            "estimated_diameter_max": 537.0627483999128
+            "estimated_diameter_min": 240.18,
+            "estimated_diameter_max": 537.06
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-06",
             "epoch_date_close_approach": 1428303600000,
             "relative_velocity": {
-              "kms": "15.7200459908067",
-              "kph": "56,592.166",
-              "mph": "35,164.171"
+              "kilometers_per_second": "15.72",
+              "kilometers_per_hour": "56592.17",
+              "miles_per_hour": "35164.17"
             },
             "miss_distance": {
-              "astronomical": "0.27052016593875",
-              "lunar": "105.232",
-              "kilometers": "40,469,244",
-              "miles": "25,146,422"
+              "astronomical": "0.27",
+              "lunar": "105.03",
+              "kilometers": "40391428",
+              "miles": "25098070"
             },
             "orbiting_body": "Earth"
           }
@@ -191,9 +196,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3713932"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3713932"
         },
         "neo_reference_id": "3713932",
         "name": "(2015 FN33)",
@@ -201,36 +205,37 @@
         "absolute_magnitude_h": 26,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.016770846216283528,
-            "estimated_diameter_max": 0.037500752179805114
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.04
           },
           "meters": {
-            "estimated_diameter_min": 16.770846216283527,
-            "estimated_diameter_max": 37.50075217980511
+            "estimated_diameter_min": 16.77,
+            "estimated_diameter_max": 37.5
           },
           "miles": {
-            "estimated_diameter_min": 0.010420917484258312,
-            "estimated_diameter_max": 0.023301879882717685
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.02
           },
           "feet": {
-            "estimated_diameter_min": 55.022463100231654,
-            "estimated_diameter_max": 123.03396778159181
+            "estimated_diameter_min": 55.02,
+            "estimated_diameter_max": 123.03
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-06",
             "epoch_date_close_approach": 1428303600000,
             "relative_velocity": {
-              "kms": "5.16132223192382",
-              "kph": "18,580.76",
-              "mph": "11,545.362"
+              "kilometers_per_second": "5.16",
+              "kilometers_per_hour": "18580.76",
+              "miles_per_hour": "11545.36"
             },
             "miss_distance": {
-              "astronomical": "0.0251733695728437",
-              "lunar": "9.792",
-              "kilometers": "3,765,882.5",
-              "miles": "2,340,011"
+              "astronomical": "0.03",
+              "lunar": "11.67",
+              "kilometers": "4487936",
+              "miles": "2788674.25"
             },
             "orbiting_body": "Earth"
           }
@@ -238,9 +243,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3717066"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3717066"
         },
         "neo_reference_id": "3717066",
         "name": "(2015 HG11)",
@@ -248,36 +252,37 @@
         "absolute_magnitude_h": 25.2,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.024241248110080077,
-            "estimated_diameter_max": 0.05420507863357736
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.05
           },
           "meters": {
-            "estimated_diameter_min": 24.241248110080075,
-            "estimated_diameter_max": 54.20507863357736
+            "estimated_diameter_min": 24.24,
+            "estimated_diameter_max": 54.21
           },
           "miles": {
-            "estimated_diameter_min": 0.015062808579408568,
-            "estimated_diameter_max": 0.0336814639156246
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.03
           },
           "feet": {
-            "estimated_diameter_min": 79.53165644947512,
-            "estimated_diameter_max": 177.83819018418595
+            "estimated_diameter_min": 79.53,
+            "estimated_diameter_max": 177.84
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-06",
             "epoch_date_close_approach": 1428303600000,
             "relative_velocity": {
-              "kms": "6.70715194348669",
-              "kph": "24,145.747",
-              "mph": "15,003.228"
+              "kilometers_per_second": "6.71",
+              "kilometers_per_hour": "24145.75",
+              "miles_per_hour": "15003.23"
             },
             "miss_distance": {
-              "astronomical": "0.0783806062788299",
-              "lunar": "30.49",
-              "kilometers": "11,725,572",
-              "miles": "7,285,932.5"
+              "astronomical": "0.08",
+              "lunar": "31.12",
+              "kilometers": "11967829",
+              "miles": "7436464.5"
             },
             "orbiting_body": "Earth"
           }
@@ -285,9 +290,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3717067"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3717067"
         },
         "neo_reference_id": "3717067",
         "name": "(2015 HH11)",
@@ -295,36 +299,37 @@
         "absolute_magnitude_h": 25.5,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.02111324447897142,
-            "estimated_diameter_max": 0.04721064988055223
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.05
           },
           "meters": {
-            "estimated_diameter_min": 21.11324447897142,
-            "estimated_diameter_max": 47.21064988055223
+            "estimated_diameter_min": 21.11,
+            "estimated_diameter_max": 47.21
           },
           "miles": {
-            "estimated_diameter_min": 0.01311915783514295,
-            "estimated_diameter_max": 0.02933532872692862
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.03
           },
           "feet": {
-            "estimated_diameter_min": 69.2691770163886,
-            "estimated_diameter_max": 154.890588554111
+            "estimated_diameter_min": 69.27,
+            "estimated_diameter_max": 154.89
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-06",
             "epoch_date_close_approach": 1428303600000,
             "relative_velocity": {
-              "kms": "8.76262858900703",
-              "kph": "31,545.463",
-              "mph": "19,601.124"
+              "kilometers_per_second": "8.76",
+              "kilometers_per_hour": "31545.46",
+              "miles_per_hour": "19601.12"
             },
             "miss_distance": {
-              "astronomical": "0.117808330158779",
-              "lunar": "45.827",
-              "kilometers": "17,623,876",
-              "miles": "10,950,968"
+              "astronomical": "0.12",
+              "lunar": "46.68",
+              "kilometers": "17951744",
+              "miles": "11154697"
             },
             "orbiting_body": "Earth"
           }
@@ -332,9 +337,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3114023"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3114023"
         },
         "neo_reference_id": "3114023",
         "name": "(2002 CW11)",
@@ -342,36 +346,37 @@
         "absolute_magnitude_h": 26.1,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.016016033797856405,
-            "estimated_diameter_max": 0.03581294030194105
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.04
           },
           "meters": {
-            "estimated_diameter_min": 16.016033797856405,
-            "estimated_diameter_max": 35.81294030194105
+            "estimated_diameter_min": 16.02,
+            "estimated_diameter_max": 35.81
           },
           "miles": {
-            "estimated_diameter_min": 0.009951898937007833,
-            "estimated_diameter_max": 0.022253122528357414
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.02
           },
           "feet": {
-            "estimated_diameter_min": 52.54604432535921,
-            "estimated_diameter_max": 117.49652706022027
+            "estimated_diameter_min": 52.55,
+            "estimated_diameter_max": 117.5
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-06",
             "epoch_date_close_approach": 1428303600000,
             "relative_velocity": {
-              "kms": "19.8825921187707",
-              "kph": "71,577.332",
-              "mph": "44,475.37"
+              "kilometers_per_second": "19.88",
+              "kilometers_per_hour": "71577.33",
+              "miles_per_hour": "44475.37"
             },
             "miss_distance": {
-              "astronomical": "0.452514339823719",
-              "lunar": "176.028",
-              "kilometers": "67,695,184",
-              "miles": "42,063,836"
+              "astronomical": "0.45",
+              "lunar": "175.05",
+              "kilometers": "67319040",
+              "miles": "41830112"
             },
             "orbiting_body": "Earth"
           }
@@ -379,9 +384,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3355845"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3355845"
         },
         "neo_reference_id": "3355845",
         "name": "(2006 UQ216)",
@@ -389,36 +393,37 @@
         "absolute_magnitude_h": 27.3,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.009216265485028291,
-            "estimated_diameter_max": 0.02060819612320833
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.02
           },
           "meters": {
-            "estimated_diameter_min": 9.216265485028291,
-            "estimated_diameter_max": 20.60819612320833
+            "estimated_diameter_min": 9.22,
+            "estimated_diameter_max": 20.61
           },
           "miles": {
-            "estimated_diameter_min": 0.005726720100697515,
-            "estimated_diameter_max": 0.012805335433274084
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.01
           },
           "feet": {
-            "estimated_diameter_min": 30.23709245390022,
-            "estimated_diameter_max": 67.61219416886682
+            "estimated_diameter_min": 30.24,
+            "estimated_diameter_max": 67.61
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-06",
             "epoch_date_close_approach": 1428303600000,
             "relative_velocity": {
-              "kms": "18.6134768979438",
-              "kph": "67,008.517",
-              "mph": "41,636.486"
+              "kilometers_per_second": "18.61",
+              "kilometers_per_hour": "67008.52",
+              "miles_per_hour": "41636.49"
             },
             "miss_distance": {
-              "astronomical": "0.497729030549698",
-              "lunar": "193.617",
-              "kilometers": "74,459,208",
-              "miles": "46,266,804"
+              "astronomical": "0.5",
+              "lunar": "194.5",
+              "kilometers": "74798936",
+              "miles": "46477904"
             },
             "orbiting_body": "Earth"
           }
@@ -428,9 +433,8 @@
     ],
     "2015-04-05": [
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3694050"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3694050"
         },
         "neo_reference_id": "3694050",
         "name": "(2014 UW33)",
@@ -438,36 +442,37 @@
         "absolute_magnitude_h": 22.8,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.07320739893472838,
-            "estimated_diameter_max": 0.16369672047399836
+            "estimated_diameter_min": 0.07,
+            "estimated_diameter_max": 0.16
           },
           "meters": {
-            "estimated_diameter_min": 73.20739893472839,
-            "estimated_diameter_max": 163.69672047399837
+            "estimated_diameter_min": 73.21,
+            "estimated_diameter_max": 163.7
           },
           "miles": {
-            "estimated_diameter_min": 0.04548895468347111,
-            "estimated_diameter_max": 0.10171639489764883
+            "estimated_diameter_min": 0.05,
+            "estimated_diameter_max": 0.1
           },
           "feet": {
-            "estimated_diameter_min": 240.18176272101428,
-            "estimated_diameter_max": 537.0627483999128
+            "estimated_diameter_min": 240.18,
+            "estimated_diameter_max": 537.06
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-05",
             "epoch_date_close_approach": 1428217200000,
             "relative_velocity": {
-              "kms": "20.582372391395",
-              "kph": "74,096.541",
-              "mph": "46,040.709"
+              "kilometers_per_second": "20.58",
+              "kilometers_per_hour": "74096.54",
+              "miles_per_hour": "46040.71"
             },
             "miss_distance": {
-              "astronomical": "0.495312245281505",
-              "lunar": "192.676",
-              "kilometers": "74,097,656",
-              "miles": "46,042,148"
+              "astronomical": "0.5",
+              "lunar": "194.5",
+              "kilometers": "74798936",
+              "miles": "46477904"
             },
             "orbiting_body": "Earth"
           }
@@ -475,9 +480,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3713271"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3713271"
         },
         "neo_reference_id": "3713271",
         "name": "(2015 EE7)",
@@ -485,36 +489,37 @@
         "absolute_magnitude_h": 20.2,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.24241248110080077,
-            "estimated_diameter_max": 0.5420507863357736
+            "estimated_diameter_min": 0.24,
+            "estimated_diameter_max": 0.54
           },
           "meters": {
-            "estimated_diameter_min": 242.41248110080076,
-            "estimated_diameter_max": 542.0507863357736
+            "estimated_diameter_min": 242.41,
+            "estimated_diameter_max": 542.05
           },
           "miles": {
-            "estimated_diameter_min": 0.15062808579408568,
-            "estimated_diameter_max": 0.336814639156246
+            "estimated_diameter_min": 0.15,
+            "estimated_diameter_max": 0.34
           },
           "feet": {
-            "estimated_diameter_min": 795.3165644947512,
-            "estimated_diameter_max": 1778.3819018418596
+            "estimated_diameter_min": 795.32,
+            "estimated_diameter_max": 1778.38
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-05",
             "epoch_date_close_approach": 1428217200000,
             "relative_velocity": {
-              "kms": "15.8926588702744",
-              "kph": "57,213.572",
-              "mph": "35,550.289"
+              "kilometers_per_second": "15.89",
+              "kilometers_per_hour": "57213.57",
+              "miles_per_hour": "35550.29"
             },
             "miss_distance": {
-              "astronomical": "0.099365917438118",
-              "lunar": "38.653",
-              "kilometers": "14,864,930",
-              "miles": "9,236,639"
+              "astronomical": "0.1",
+              "lunar": "38.9",
+              "kilometers": "14959787",
+              "miles": "9295581"
             },
             "orbiting_body": "Earth"
           }
@@ -522,9 +527,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3666431"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3666431"
         },
         "neo_reference_id": "3666431",
         "name": "(2014 FZ6)",
@@ -532,36 +536,37 @@
         "absolute_magnitude_h": 24.7,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.03051792325938718,
-            "estimated_diameter_max": 0.06824015094011168
+            "estimated_diameter_min": 0.03,
+            "estimated_diameter_max": 0.07
           },
           "meters": {
-            "estimated_diameter_min": 30.51792325938718,
-            "estimated_diameter_max": 68.24015094011168
+            "estimated_diameter_min": 30.52,
+            "estimated_diameter_max": 68.24
           },
           "miles": {
-            "estimated_diameter_min": 0.018962952493608673,
-            "estimated_diameter_max": 0.04240245082980813
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.04
           },
           "feet": {
-            "estimated_diameter_min": 100.12442334632784,
-            "estimated_diameter_max": 223.88501681035603
+            "estimated_diameter_min": 100.12,
+            "estimated_diameter_max": 223.89
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-05",
             "epoch_date_close_approach": 1428217200000,
             "relative_velocity": {
-              "kms": "8.4625448594386",
-              "kph": "30,465.161",
-              "mph": "18,929.867"
+              "kilometers_per_second": "8.46",
+              "kilometers_per_hour": "30465.16",
+              "miles_per_hour": "18929.87"
             },
             "miss_distance": {
-              "astronomical": "0.12891542457879",
-              "lunar": "50.148",
-              "kilometers": "19,285,474",
-              "miles": "11,983,438"
+              "astronomical": "0.13",
+              "lunar": "50.57",
+              "kilometers": "19447722",
+              "miles": "12084255"
             },
             "orbiting_body": "Earth"
           }
@@ -569,9 +574,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3514891"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3514891"
         },
         "neo_reference_id": "3514891",
         "name": "(2010 GB6)",
@@ -579,36 +583,37 @@
         "absolute_magnitude_h": 22.1,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.10105434154200518,
-            "estimated_diameter_max": 0.2259643771094045
+            "estimated_diameter_min": 0.1,
+            "estimated_diameter_max": 0.23
           },
           "meters": {
-            "estimated_diameter_min": 101.05434154200518,
-            "estimated_diameter_max": 225.9643771094045
+            "estimated_diameter_min": 101.05,
+            "estimated_diameter_max": 225.96
           },
           "miles": {
-            "estimated_diameter_min": 0.0627922372582973,
-            "estimated_diameter_max": 0.1404077109688478
+            "estimated_diameter_min": 0.06,
+            "estimated_diameter_max": 0.14
           },
           "feet": {
-            "estimated_diameter_min": 331.5431259046723,
-            "estimated_diameter_max": 741.3529669956188
+            "estimated_diameter_min": 331.54,
+            "estimated_diameter_max": 741.35
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-05",
             "epoch_date_close_approach": 1428217200000,
             "relative_velocity": {
-              "kms": "17.2449921146065",
-              "kph": "62,081.972",
-              "mph": "38,575.323"
+              "kilometers_per_second": "17.24",
+              "kilometers_per_hour": "62081.97",
+              "miles_per_hour": "38575.32"
             },
             "miss_distance": {
-              "astronomical": "0.111882858653577",
-              "lunar": "43.522",
-              "kilometers": "16,737,437",
-              "miles": "10,400,161"
+              "astronomical": "0.11",
+              "lunar": "42.79",
+              "kilometers": "16455766",
+              "miles": "10225139"
             },
             "orbiting_body": "Earth"
           }
@@ -616,9 +621,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3562320"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3562320"
         },
         "neo_reference_id": "3562320",
         "name": "(2011 GK44)",
@@ -626,36 +630,37 @@
         "absolute_magnitude_h": 25.6,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.020162991944275697,
-            "estimated_diameter_max": 0.04508582061718111
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.05
           },
           "meters": {
-            "estimated_diameter_min": 20.162991944275696,
-            "estimated_diameter_max": 45.08582061718111
+            "estimated_diameter_min": 20.16,
+            "estimated_diameter_max": 45.09
           },
           "miles": {
-            "estimated_diameter_min": 0.012528698467406535,
-            "estimated_diameter_max": 0.028015021442718443
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.03
           },
           "feet": {
-            "estimated_diameter_min": 66.15155049045748,
-            "estimated_diameter_max": 147.91936371367248
+            "estimated_diameter_min": 66.15,
+            "estimated_diameter_max": 147.92
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-05",
             "epoch_date_close_approach": 1428217200000,
             "relative_velocity": {
-              "kms": "8.19394122685221",
-              "kph": "29,498.188",
-              "mph": "18,329.027"
+              "kilometers_per_second": "8.19",
+              "kilometers_per_hour": "29498.19",
+              "miles_per_hour": "18329.03"
             },
             "miss_distance": {
-              "astronomical": "0.0640886508270318",
-              "lunar": "24.93",
-              "kilometers": "9,587,526",
-              "miles": "5,957,412"
+              "astronomical": "0.06",
+              "lunar": "23.34",
+              "kilometers": "8975872",
+              "miles": "5577348.5"
             },
             "orbiting_body": "Earth"
           }
@@ -663,9 +668,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3709550"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3709550"
         },
         "neo_reference_id": "3709550",
         "name": "(2015 BD515)",
@@ -673,36 +677,37 @@
         "absolute_magnitude_h": 20.6,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.201629919442757,
-            "estimated_diameter_max": 0.45085820617181116
+            "estimated_diameter_min": 0.2,
+            "estimated_diameter_max": 0.45
           },
           "meters": {
-            "estimated_diameter_min": 201.629919442757,
-            "estimated_diameter_max": 450.85820617181116
+            "estimated_diameter_min": 201.63,
+            "estimated_diameter_max": 450.86
           },
           "miles": {
-            "estimated_diameter_min": 0.12528698467406535,
-            "estimated_diameter_max": 0.28015021442718446
+            "estimated_diameter_min": 0.13,
+            "estimated_diameter_max": 0.28
           },
           "feet": {
-            "estimated_diameter_min": 661.5155049045749,
-            "estimated_diameter_max": 1479.193637136725
+            "estimated_diameter_min": 661.52,
+            "estimated_diameter_max": 1479.19
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-05",
             "epoch_date_close_approach": 1428217200000,
             "relative_velocity": {
-              "kms": "13.2083865661329",
-              "kph": "47,550.192",
-              "mph": "29,545.84"
+              "kilometers_per_second": "13.21",
+              "kilometers_per_hour": "47550.19",
+              "miles_per_hour": "29545.84"
             },
             "miss_distance": {
-              "astronomical": "0.161323043363581",
-              "lunar": "62.755",
-              "kilometers": "24,133,584",
-              "miles": "14,995,914"
+              "astronomical": "0.16",
+              "lunar": "62.24",
+              "kilometers": "23935658",
+              "miles": "14872929"
             },
             "orbiting_body": "Earth"
           }
@@ -710,9 +715,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3328631"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3328631"
         },
         "neo_reference_id": "3328631",
         "name": "(2006 FJ)",
@@ -720,36 +724,37 @@
         "absolute_magnitude_h": 20.3,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.23150212221032596,
-            "estimated_diameter_max": 0.5176544821977527
+            "estimated_diameter_min": 0.23,
+            "estimated_diameter_max": 0.52
           },
           "meters": {
-            "estimated_diameter_min": 231.50212221032595,
-            "estimated_diameter_max": 517.6544821977527
+            "estimated_diameter_min": 231.5,
+            "estimated_diameter_max": 517.65
           },
           "miles": {
-            "estimated_diameter_min": 0.14384870517995246,
-            "estimated_diameter_max": 0.32165548325769977
+            "estimated_diameter_min": 0.14,
+            "estimated_diameter_max": 0.32
           },
           "feet": {
-            "estimated_diameter_min": 759.5214226325259,
-            "estimated_diameter_max": 1698.341531373675
+            "estimated_diameter_min": 759.52,
+            "estimated_diameter_max": 1698.34
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-05",
             "epoch_date_close_approach": 1428217200000,
             "relative_velocity": {
-              "kms": "14.4256150785811",
-              "kph": "51,932.214",
-              "mph": "32,268.658"
+              "kilometers_per_second": "14.43",
+              "kilometers_per_hour": "51932.21",
+              "miles_per_hour": "32268.66"
             },
             "miss_distance": {
-              "astronomical": "0.485338332705571",
-              "lunar": "188.797",
-              "kilometers": "72,605,584",
-              "miles": "45,115,016"
+              "astronomical": "0.49",
+              "lunar": "190.61",
+              "kilometers": "73302960",
+              "miles": "45548348"
             },
             "orbiting_body": "Earth"
           }
@@ -757,9 +762,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3714584"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3714584"
         },
         "neo_reference_id": "3714584",
         "name": "(2015 FK120)",
@@ -767,36 +771,37 @@
         "absolute_magnitude_h": 27.2,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.009650614695789305,
-            "estimated_diameter_max": 0.02157943048444334
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.02
           },
           "meters": {
-            "estimated_diameter_min": 9.650614695789304,
-            "estimated_diameter_max": 21.57943048444334
+            "estimated_diameter_min": 9.65,
+            "estimated_diameter_max": 21.58
           },
           "miles": {
-            "estimated_diameter_min": 0.005996612104137296,
-            "estimated_diameter_max": 0.013408832299549043
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.01
           },
           "feet": {
-            "estimated_diameter_min": 31.662122718533382,
-            "estimated_diameter_max": 70.7986587105811
+            "estimated_diameter_min": 31.66,
+            "estimated_diameter_max": 70.8
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-05",
             "epoch_date_close_approach": 1428217200000,
             "relative_velocity": {
-              "kms": "4.84444042708211",
-              "kph": "17,439.986",
-              "mph": "10,836.529"
+              "kilometers_per_second": "4.84",
+              "kilometers_per_hour": "17439.99",
+              "miles_per_hour": "10836.53"
             },
             "miss_distance": {
-              "astronomical": "0.0149266019202275",
-              "lunar": "5.806",
-              "kilometers": "2,232,988",
-              "miles": "1,387,514.375"
+              "astronomical": "0.01",
+              "lunar": "3.89",
+              "kilometers": "1495978.62",
+              "miles": "929558.06"
             },
             "orbiting_body": "Earth"
           }
@@ -804,9 +809,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3715995"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3715995"
         },
         "neo_reference_id": "3715995",
         "name": "(2015 HG)",
@@ -814,36 +818,37 @@
         "absolute_magnitude_h": 21,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.16770846216283528,
-            "estimated_diameter_max": 0.3750075217980511
+            "estimated_diameter_min": 0.17,
+            "estimated_diameter_max": 0.38
           },
           "meters": {
-            "estimated_diameter_min": 167.70846216283527,
-            "estimated_diameter_max": 375.0075217980511
+            "estimated_diameter_min": 167.71,
+            "estimated_diameter_max": 375.01
           },
           "miles": {
-            "estimated_diameter_min": 0.10420917484258312,
-            "estimated_diameter_max": 0.2330187988271768
+            "estimated_diameter_min": 0.1,
+            "estimated_diameter_max": 0.23
           },
           "feet": {
-            "estimated_diameter_min": 550.2246310023165,
-            "estimated_diameter_max": 1230.3396778159179
+            "estimated_diameter_min": 550.22,
+            "estimated_diameter_max": 1230.34
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-05",
             "epoch_date_close_approach": 1428217200000,
             "relative_velocity": {
-              "kms": "40.7047907961234",
-              "kph": "146,537.247",
-              "mph": "91,052.547"
+              "kilometers_per_second": "40.7",
+              "kilometers_per_hour": "146537.25",
+              "miles_per_hour": "91052.55"
             },
             "miss_distance": {
-              "astronomical": "0.124053510542681",
-              "lunar": "48.257",
-              "kilometers": "18,558,140",
-              "miles": "11,531,494"
+              "astronomical": "0.12",
+              "lunar": "46.68",
+              "kilometers": "17951744",
+              "miles": "11154697"
             },
             "orbiting_body": "Earth"
           }
@@ -851,9 +856,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/2424392"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/2424392"
         },
         "neo_reference_id": "2424392",
         "name": "424392 (2007 YJ)",
@@ -861,36 +865,37 @@
         "absolute_magnitude_h": 21.7,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.12149404079963382,
-            "estimated_diameter_max": 0.27166893408911413
+            "estimated_diameter_min": 0.12,
+            "estimated_diameter_max": 0.27
           },
           "meters": {
-            "estimated_diameter_min": 121.49404079963381,
-            "estimated_diameter_max": 271.66893408911415
+            "estimated_diameter_min": 121.49,
+            "estimated_diameter_max": 271.67
           },
           "miles": {
-            "estimated_diameter_min": 0.07549287362570926,
-            "estimated_diameter_max": 0.16880719724388693
+            "estimated_diameter_min": 0.08,
+            "estimated_diameter_max": 0.17
           },
           "feet": {
-            "estimated_diameter_min": 398.6025088170706,
-            "estimated_diameter_max": 891.3023057169293
+            "estimated_diameter_min": 398.6,
+            "estimated_diameter_max": 891.3
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-05",
             "epoch_date_close_approach": 1428217200000,
             "relative_velocity": {
-              "kms": "7.3515867902245",
-              "kph": "26,465.712",
-              "mph": "16,444.764"
+              "kilometers_per_second": "7.35",
+              "kilometers_per_hour": "26465.71",
+              "miles_per_hour": "16444.76"
             },
             "miss_distance": {
-              "astronomical": "0.182359863447499",
-              "lunar": "70.938",
-              "kilometers": "27,280,646",
-              "miles": "16,951,408"
+              "astronomical": "0.18",
+              "lunar": "70.02",
+              "kilometers": "26927618",
+              "miles": "16732046"
             },
             "orbiting_body": "Earth"
           }
@@ -898,9 +903,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3329825"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3329825"
         },
         "neo_reference_id": "3329825",
         "name": "(2006 GT3)",
@@ -908,36 +912,37 @@
         "absolute_magnitude_h": 21.3,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.14606796427135668,
-            "estimated_diameter_max": 0.3266178974457641
+            "estimated_diameter_min": 0.15,
+            "estimated_diameter_max": 0.33
           },
           "meters": {
-            "estimated_diameter_min": 146.0679642713567,
-            "estimated_diameter_max": 326.6178974457641
+            "estimated_diameter_min": 146.07,
+            "estimated_diameter_max": 326.62
           },
           "miles": {
-            "estimated_diameter_min": 0.09076239702725718,
-            "estimated_diameter_max": 0.20295088955377188
+            "estimated_diameter_min": 0.09,
+            "estimated_diameter_max": 0.2
           },
           "feet": {
-            "estimated_diameter_min": 479.2256199000379,
-            "estimated_diameter_max": 1071.5810626559607
+            "estimated_diameter_min": 479.23,
+            "estimated_diameter_max": 1071.58
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-05",
             "epoch_date_close_approach": 1428217200000,
             "relative_velocity": {
-              "kms": "4.6157970268879",
-              "kph": "16,616.869",
-              "mph": "10,325.076"
+              "kilometers_per_second": "4.62",
+              "kilometers_per_hour": "16616.87",
+              "miles_per_hour": "10325.08"
             },
             "miss_distance": {
-              "astronomical": "0.409363738124324",
-              "lunar": "159.242",
-              "kilometers": "61,239,944",
-              "miles": "38,052,736"
+              "astronomical": "0.41",
+              "lunar": "159.49",
+              "kilometers": "61335128",
+              "miles": "38111880"
             },
             "orbiting_body": "Earth"
           }
@@ -945,9 +950,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3330049"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3330049"
         },
         "neo_reference_id": "3330049",
         "name": "(2006 HC2)",
@@ -955,36 +959,37 @@
         "absolute_magnitude_h": 21.8,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.11602590820943604,
-            "estimated_diameter_max": 0.2594418179074499
+            "estimated_diameter_min": 0.12,
+            "estimated_diameter_max": 0.26
           },
           "meters": {
-            "estimated_diameter_min": 116.02590820943604,
-            "estimated_diameter_max": 259.4418179074499
+            "estimated_diameter_min": 116.03,
+            "estimated_diameter_max": 259.44
           },
           "miles": {
-            "estimated_diameter_min": 0.07209513461000548,
-            "estimated_diameter_max": 0.16120962183497006
+            "estimated_diameter_min": 0.07,
+            "estimated_diameter_max": 0.16
           },
           "feet": {
-            "estimated_diameter_min": 380.66244068984616,
-            "estimated_diameter_max": 851.187093863478
+            "estimated_diameter_min": 380.66,
+            "estimated_diameter_max": 851.19
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-05",
             "epoch_date_close_approach": 1428217200000,
             "relative_velocity": {
-              "kms": "18.5570235199648",
-              "kph": "66,805.285",
-              "mph": "41,510.206"
+              "kilometers_per_second": "18.56",
+              "kilometers_per_hour": "66805.28",
+              "miles_per_hour": "41510.21"
             },
             "miss_distance": {
-              "astronomical": "0.237762113034496",
-              "lunar": "92.489",
-              "kilometers": "35,568,704",
-              "miles": "22,101,368"
+              "astronomical": "0.24",
+              "lunar": "93.36",
+              "kilometers": "35903488",
+              "miles": "22309394"
             },
             "orbiting_body": "Earth"
           }
@@ -994,9 +999,8 @@
     ],
     "2015-04-04": [
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3713318"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3713318"
         },
         "neo_reference_id": "3713318",
         "name": "(2015 EQ7)",
@@ -1004,36 +1008,37 @@
         "absolute_magnitude_h": 23.6,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.050647145883463036,
-            "estimated_diameter_max": 0.113250461061772
+            "estimated_diameter_min": 0.05,
+            "estimated_diameter_max": 0.11
           },
           "meters": {
-            "estimated_diameter_min": 50.64714588346304,
-            "estimated_diameter_max": 113.250461061772
+            "estimated_diameter_min": 50.65,
+            "estimated_diameter_max": 113.25
           },
           "miles": {
-            "estimated_diameter_min": 0.03147066768475331,
-            "estimated_diameter_max": 0.07037055224041433
+            "estimated_diameter_min": 0.03,
+            "estimated_diameter_max": 0.07
           },
           "feet": {
-            "estimated_diameter_min": 166.16518210030088,
-            "estimated_diameter_max": 371.5566426699041
+            "estimated_diameter_min": 166.17,
+            "estimated_diameter_max": 371.56
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-04",
             "epoch_date_close_approach": 1428130800000,
             "relative_velocity": {
-              "kms": "5.76038807308359",
-              "kph": "20,737.397",
-              "mph": "12,885.412"
+              "kilometers_per_second": "5.76",
+              "kilometers_per_hour": "20737.4",
+              "miles_per_hour": "12885.41"
             },
             "miss_distance": {
-              "astronomical": "0.0867415471939729",
-              "lunar": "33.742",
-              "kilometers": "12,976,350",
-              "miles": "8,063,130.5"
+              "astronomical": "0.09",
+              "lunar": "35.01",
+              "kilometers": "13463809",
+              "miles": "8366023"
             },
             "orbiting_body": "Earth"
           }
@@ -1041,9 +1046,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3715501"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3715501"
         },
         "neo_reference_id": "3715501",
         "name": "(2015 GW)",
@@ -1051,36 +1055,37 @@
         "absolute_magnitude_h": 25.4,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.022108281035908995,
-            "estimated_diameter_max": 0.04943561926196198
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.05
           },
           "meters": {
-            "estimated_diameter_min": 22.108281035908995,
-            "estimated_diameter_max": 49.43561926196198
+            "estimated_diameter_min": 22.11,
+            "estimated_diameter_max": 49.44
           },
           "miles": {
-            "estimated_diameter_min": 0.013737444695563808,
-            "estimated_diameter_max": 0.03071786017642458
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.03
           },
           "feet": {
-            "estimated_diameter_min": 72.53373275385167,
-            "estimated_diameter_max": 162.19035709941534
+            "estimated_diameter_min": 72.53,
+            "estimated_diameter_max": 162.19
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-04",
             "epoch_date_close_approach": 1428130800000,
             "relative_velocity": {
-              "kms": "5.39704111352314",
-              "kph": "19,429.348",
-              "mph": "12,072.641"
+              "kilometers_per_second": "5.4",
+              "kilometers_per_hour": "19429.35",
+              "miles_per_hour": "12072.64"
             },
             "miss_distance": {
-              "astronomical": "0.0309956013481263",
-              "lunar": "12.057",
-              "kilometers": "4,636,876",
-              "miles": "2,881,221.25"
+              "astronomical": "0.03",
+              "lunar": "11.67",
+              "kilometers": "4487936",
+              "miles": "2788674.25"
             },
             "orbiting_body": "Earth"
           }
@@ -1088,9 +1093,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3520758"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3520758"
         },
         "neo_reference_id": "3520758",
         "name": "(2010 HX107)",
@@ -1098,36 +1102,37 @@
         "absolute_magnitude_h": 23.6,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.050647145883463036,
-            "estimated_diameter_max": 0.113250461061772
+            "estimated_diameter_min": 0.05,
+            "estimated_diameter_max": 0.11
           },
           "meters": {
-            "estimated_diameter_min": 50.64714588346304,
-            "estimated_diameter_max": 113.250461061772
+            "estimated_diameter_min": 50.65,
+            "estimated_diameter_max": 113.25
           },
           "miles": {
-            "estimated_diameter_min": 0.03147066768475331,
-            "estimated_diameter_max": 0.07037055224041433
+            "estimated_diameter_min": 0.03,
+            "estimated_diameter_max": 0.07
           },
           "feet": {
-            "estimated_diameter_min": 166.16518210030088,
-            "estimated_diameter_max": 371.5566426699041
+            "estimated_diameter_min": 166.17,
+            "estimated_diameter_max": 371.56
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-04",
             "epoch_date_close_approach": 1428130800000,
             "relative_velocity": {
-              "kms": "9.93324486896605",
-              "kph": "35,759.682",
-              "mph": "22,219.675"
+              "kilometers_per_second": "9.93",
+              "kilometers_per_hour": "35759.68",
+              "miles_per_hour": "22219.68"
             },
             "miss_distance": {
-              "astronomical": "0.129859725580955",
-              "lunar": "50.515",
-              "kilometers": "19,426,740",
-              "miles": "12,071,216"
+              "astronomical": "0.13",
+              "lunar": "50.57",
+              "kilometers": "19447722",
+              "miles": "12084255"
             },
             "orbiting_body": "Earth"
           }
@@ -1135,9 +1140,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3667139"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3667139"
         },
         "neo_reference_id": "3667139",
         "name": "(2014 GJ45)",
@@ -1145,36 +1149,37 @@
         "absolute_magnitude_h": 23.6,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.050647145883463036,
-            "estimated_diameter_max": 0.113250461061772
+            "estimated_diameter_min": 0.05,
+            "estimated_diameter_max": 0.11
           },
           "meters": {
-            "estimated_diameter_min": 50.64714588346304,
-            "estimated_diameter_max": 113.250461061772
+            "estimated_diameter_min": 50.65,
+            "estimated_diameter_max": 113.25
           },
           "miles": {
-            "estimated_diameter_min": 0.03147066768475331,
-            "estimated_diameter_max": 0.07037055224041433
+            "estimated_diameter_min": 0.03,
+            "estimated_diameter_max": 0.07
           },
           "feet": {
-            "estimated_diameter_min": 166.16518210030088,
-            "estimated_diameter_max": 371.5566426699041
+            "estimated_diameter_min": 166.17,
+            "estimated_diameter_max": 371.56
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-04",
             "epoch_date_close_approach": 1428130800000,
             "relative_velocity": {
-              "kms": "26.9072462298905",
-              "kph": "96,866.086",
-              "mph": "60,188.819"
+              "kilometers_per_second": "26.91",
+              "kilometers_per_hour": "96866.09",
+              "miles_per_hour": "60188.82"
             },
             "miss_distance": {
-              "astronomical": "0.488304714115576",
-              "lunar": "189.951",
-              "kilometers": "73,049,344",
-              "miles": "45,390,760"
+              "astronomical": "0.49",
+              "lunar": "190.61",
+              "kilometers": "73302960",
+              "miles": "45548348"
             },
             "orbiting_body": "Earth"
           }
@@ -1182,9 +1187,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3713947"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3713947"
         },
         "neo_reference_id": "3713947",
         "name": "(2015 FB34)",
@@ -1192,36 +1196,37 @@
         "absolute_magnitude_h": 23.9,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.04411181999969043,
-            "estimated_diameter_max": 0.09863702813054256
+            "estimated_diameter_min": 0.04,
+            "estimated_diameter_max": 0.1
           },
           "meters": {
-            "estimated_diameter_min": 44.11181999969043,
-            "estimated_diameter_max": 98.63702813054256
+            "estimated_diameter_min": 44.11,
+            "estimated_diameter_max": 98.64
           },
           "miles": {
-            "estimated_diameter_min": 0.027409805705027643,
-            "estimated_diameter_max": 0.061290188806503366
+            "estimated_diameter_min": 0.03,
+            "estimated_diameter_max": 0.06
           },
           "feet": {
-            "estimated_diameter_min": 144.72382352778436,
-            "estimated_diameter_max": 323.61230737180927
+            "estimated_diameter_min": 144.72,
+            "estimated_diameter_max": 323.61
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-04",
             "epoch_date_close_approach": 1428130800000,
             "relative_velocity": {
-              "kms": "6.87025787261957",
-              "kph": "24,732.928",
-              "mph": "15,368.08"
+              "kilometers_per_second": "6.87",
+              "kilometers_per_hour": "24732.93",
+              "miles_per_hour": "15368.08"
             },
             "miss_distance": {
-              "astronomical": "0.0574044702310265",
-              "lunar": "22.33",
-              "kilometers": "8,587,587",
-              "miles": "5,336,079"
+              "astronomical": "0.06",
+              "lunar": "23.34",
+              "kilometers": "8975872",
+              "miles": "5577348.5"
             },
             "orbiting_body": "Earth"
           }
@@ -1229,9 +1234,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3714117"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3714117"
         },
         "neo_reference_id": "3714117",
         "name": "(2015 FA36)",
@@ -1239,36 +1243,37 @@
         "absolute_magnitude_h": 22.4,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.08801465209007281,
-            "estimated_diameter_max": 0.19680674508939675
+            "estimated_diameter_min": 0.09,
+            "estimated_diameter_max": 0.2
           },
           "meters": {
-            "estimated_diameter_min": 88.01465209007281,
-            "estimated_diameter_max": 196.80674508939674
+            "estimated_diameter_min": 88.01,
+            "estimated_diameter_max": 196.81
           },
           "miles": {
-            "estimated_diameter_min": 0.05468975238386063,
-            "estimated_diameter_max": 0.12229000400294354
+            "estimated_diameter_min": 0.05,
+            "estimated_diameter_max": 0.12
           },
           "feet": {
-            "estimated_diameter_min": 288.76199116319447,
-            "estimated_diameter_max": 645.6914415590965
+            "estimated_diameter_min": 288.76,
+            "estimated_diameter_max": 645.69
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-04",
             "epoch_date_close_approach": 1428130800000,
             "relative_velocity": {
-              "kms": "20.1288447301668",
-              "kph": "72,463.841",
-              "mph": "45,026.213"
+              "kilometers_per_second": "20.13",
+              "kilometers_per_hour": "72463.84",
+              "miles_per_hour": "45026.21"
             },
             "miss_distance": {
-              "astronomical": "0.258363742326869",
-              "lunar": "100.504",
-              "kilometers": "38,650,668",
-              "miles": "24,016,412"
+              "astronomical": "0.26",
+              "lunar": "101.14",
+              "kilometers": "38895444",
+              "miles": "24168510"
             },
             "orbiting_body": "Earth"
           }
@@ -1276,9 +1281,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3715500"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3715500"
         },
         "neo_reference_id": "3715500",
         "name": "(2015 GV)",
@@ -1286,36 +1290,37 @@
         "absolute_magnitude_h": 24.9,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.027832676807192938,
-            "estimated_diameter_max": 0.06223575733666522
+            "estimated_diameter_min": 0.03,
+            "estimated_diameter_max": 0.06
           },
           "meters": {
-            "estimated_diameter_min": 27.83267680719294,
-            "estimated_diameter_max": 62.235757336665216
+            "estimated_diameter_min": 27.83,
+            "estimated_diameter_max": 62.24
           },
           "miles": {
-            "estimated_diameter_min": 0.017294418220362283,
-            "estimated_diameter_max": 0.038671494772041
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.04
           },
           "feet": {
-            "estimated_diameter_min": 91.31455937611088,
-            "estimated_diameter_max": 204.18556210042473
+            "estimated_diameter_min": 91.31,
+            "estimated_diameter_max": 204.19
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-04",
             "epoch_date_close_approach": 1428130800000,
             "relative_velocity": {
-              "kms": "12.263699458097",
-              "kph": "44,149.318",
-              "mph": "27,432.669"
+              "kilometers_per_second": "12.26",
+              "kilometers_per_hour": "44149.32",
+              "miles_per_hour": "27432.67"
             },
             "miss_distance": {
-              "astronomical": "0.0243727431091776",
-              "lunar": "9.481",
-              "kilometers": "3,646,110.5",
-              "miles": "2,265,588"
+              "astronomical": "0.02",
+              "lunar": "7.78",
+              "kilometers": "2991957.25",
+              "miles": "1859116.12"
             },
             "orbiting_body": "Earth"
           }
@@ -1323,9 +1328,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3715694"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3715694"
         },
         "neo_reference_id": "3715694",
         "name": "(2015 GX12)",
@@ -1333,36 +1337,37 @@
         "absolute_magnitude_h": 25.2,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.024241248110080077,
-            "estimated_diameter_max": 0.05420507863357736
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.05
           },
           "meters": {
-            "estimated_diameter_min": 24.241248110080075,
-            "estimated_diameter_max": 54.20507863357736
+            "estimated_diameter_min": 24.24,
+            "estimated_diameter_max": 54.21
           },
           "miles": {
-            "estimated_diameter_min": 0.015062808579408568,
-            "estimated_diameter_max": 0.0336814639156246
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.03
           },
           "feet": {
-            "estimated_diameter_min": 79.53165644947512,
-            "estimated_diameter_max": 177.83819018418595
+            "estimated_diameter_min": 79.53,
+            "estimated_diameter_max": 177.84
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-04",
             "epoch_date_close_approach": 1428130800000,
             "relative_velocity": {
-              "kms": "7.21734294371416",
-              "kph": "25,982.435",
-              "mph": "16,144.474"
+              "kilometers_per_second": "7.22",
+              "kilometers_per_hour": "25982.43",
+              "miles_per_hour": "16144.47"
             },
             "miss_distance": {
-              "astronomical": "0.0257336501200266",
-              "lunar": "10.01",
-              "kilometers": "3,849,699.25",
-              "miles": "2,392,092.25"
+              "astronomical": "0.03",
+              "lunar": "11.67",
+              "kilometers": "4487936",
+              "miles": "2788674.25"
             },
             "orbiting_body": "Earth"
           }
@@ -1370,9 +1375,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/2393569"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/2393569"
         },
         "neo_reference_id": "2393569",
         "name": "393569 (2003 JC13)",
@@ -1380,36 +1384,37 @@
         "absolute_magnitude_h": 20.2,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.24241248110080077,
-            "estimated_diameter_max": 0.5420507863357736
+            "estimated_diameter_min": 0.24,
+            "estimated_diameter_max": 0.54
           },
           "meters": {
-            "estimated_diameter_min": 242.41248110080076,
-            "estimated_diameter_max": 542.0507863357736
+            "estimated_diameter_min": 242.41,
+            "estimated_diameter_max": 542.05
           },
           "miles": {
-            "estimated_diameter_min": 0.15062808579408568,
-            "estimated_diameter_max": 0.336814639156246
+            "estimated_diameter_min": 0.15,
+            "estimated_diameter_max": 0.34
           },
           "feet": {
-            "estimated_diameter_min": 795.3165644947512,
-            "estimated_diameter_max": 1778.3819018418596
+            "estimated_diameter_min": 795.32,
+            "estimated_diameter_max": 1778.38
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-04",
             "epoch_date_close_approach": 1428130800000,
             "relative_velocity": {
-              "kms": "9.64355713072674",
-              "kph": "34,716.806",
-              "mph": "21,571.673"
+              "kilometers_per_second": "9.64",
+              "kilometers_per_hour": "34716.81",
+              "miles_per_hour": "21571.67"
             },
             "miss_distance": {
-              "astronomical": "0.403351814944046",
-              "lunar": "156.904",
-              "kilometers": "60,340,572",
-              "miles": "37,493,892"
+              "astronomical": "0.4",
+              "lunar": "155.6",
+              "kilometers": "59839148",
+              "miles": "37182324"
             },
             "orbiting_body": "Earth"
           }
@@ -1417,9 +1422,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/2140288"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/2140288"
         },
         "neo_reference_id": "2140288",
         "name": "140288 (2001 SN289)",
@@ -1427,36 +1431,37 @@
         "absolute_magnitude_h": 16.7,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 1.2149404079963384,
-            "estimated_diameter_max": 2.7166893408911417
+            "estimated_diameter_min": 1.21,
+            "estimated_diameter_max": 2.72
           },
           "meters": {
-            "estimated_diameter_min": 1214.9404079963383,
-            "estimated_diameter_max": 2716.6893408911415
+            "estimated_diameter_min": 1214.94,
+            "estimated_diameter_max": 2716.69
           },
           "miles": {
-            "estimated_diameter_min": 0.7549287362570928,
-            "estimated_diameter_max": 1.6880719724388695
+            "estimated_diameter_min": 0.75,
+            "estimated_diameter_max": 1.69
           },
           "feet": {
-            "estimated_diameter_min": 3986.025088170707,
-            "estimated_diameter_max": 8913.023057169294
+            "estimated_diameter_min": 3986.03,
+            "estimated_diameter_max": 8913.02
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-04",
             "epoch_date_close_approach": 1428130800000,
             "relative_velocity": {
-              "kms": "29.0606006631438",
-              "kph": "104,618.162",
-              "mph": "65,005.658"
+              "kilometers_per_second": "29.06",
+              "kilometers_per_hour": "104618.16",
+              "miles_per_hour": "65005.66"
             },
             "miss_distance": {
-              "astronomical": "0.382023809308401",
-              "lunar": "148.607",
-              "kilometers": "57,149,948",
-              "miles": "35,511,332"
+              "astronomical": "0.38",
+              "lunar": "147.82",
+              "kilometers": "56847192",
+              "miles": "35323208"
             },
             "orbiting_body": "Earth"
           }
@@ -1466,9 +1471,8 @@
     ],
     "2015-04-03": [
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3724245"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3724245"
         },
         "neo_reference_id": "3724245",
         "name": "(2015 OQ21)",
@@ -1476,36 +1480,37 @@
         "absolute_magnitude_h": 27.819,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.007256964132794714,
-            "estimated_diameter_max": 0.016227065111206793
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.02
           },
           "meters": {
-            "estimated_diameter_min": 7.256964132794714,
-            "estimated_diameter_max": 16.22706511120679
+            "estimated_diameter_min": 7.26,
+            "estimated_diameter_max": 16.23
           },
           "miles": {
-            "estimated_diameter_min": 0.004509267060158784,
-            "estimated_diameter_max": 0.010083027675215676
+            "estimated_diameter_min": 0,
+            "estimated_diameter_max": 0.01
           },
           "feet": {
-            "estimated_diameter_min": 23.80893820543821,
-            "estimated_diameter_max": 53.238404299451695
+            "estimated_diameter_min": 23.81,
+            "estimated_diameter_max": 53.24
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-03",
             "epoch_date_close_approach": 1428044400000,
             "relative_velocity": {
-              "kms": "4.33245711491338",
-              "kph": "15,596.846",
-              "mph": "9,691.273"
+              "kilometers_per_second": "4.33",
+              "kilometers_per_hour": "15596.85",
+              "miles_per_hour": "9691.27"
             },
             "miss_distance": {
-              "astronomical": "0.317029161765198",
-              "lunar": "123.324",
-              "kilometers": "47,426,884",
-              "miles": "29,469,700"
+              "astronomical": "0.32",
+              "lunar": "124.48",
+              "kilometers": "47871316",
+              "miles": "29745858"
             },
             "orbiting_body": "Earth"
           }
@@ -1513,9 +1518,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3710229"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3710229"
         },
         "neo_reference_id": "3710229",
         "name": "(2015 CW13)",
@@ -1523,36 +1527,37 @@
         "absolute_magnitude_h": 22.9,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.06991252322457923,
-            "estimated_diameter_max": 0.15632915440869197
+            "estimated_diameter_min": 0.07,
+            "estimated_diameter_max": 0.16
           },
           "meters": {
-            "estimated_diameter_min": 69.91252322457923,
-            "estimated_diameter_max": 156.32915440869198
+            "estimated_diameter_min": 69.91,
+            "estimated_diameter_max": 156.33
           },
           "miles": {
-            "estimated_diameter_min": 0.043441614468580025,
-            "estimated_diameter_max": 0.09713840300408334
+            "estimated_diameter_min": 0.04,
+            "estimated_diameter_max": 0.1
           },
           "feet": {
-            "estimated_diameter_min": 229.37180269612855,
-            "estimated_diameter_max": 512.890942950213
+            "estimated_diameter_min": 229.37,
+            "estimated_diameter_max": 512.89
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-03",
             "epoch_date_close_approach": 1428044400000,
             "relative_velocity": {
-              "kms": "5.74963617355801",
-              "kph": "20,698.69",
-              "mph": "12,861.361"
+              "kilometers_per_second": "5.75",
+              "kilometers_per_hour": "20698.69",
+              "miles_per_hour": "12861.36"
             },
             "miss_distance": {
-              "astronomical": "0.0347575049616529",
-              "lunar": "13.521",
-              "kilometers": "5,199,649",
-              "miles": "3,230,912"
+              "astronomical": "0.03",
+              "lunar": "11.67",
+              "kilometers": "4487936",
+              "miles": "2788674.25"
             },
             "orbiting_body": "Earth"
           }
@@ -1560,9 +1565,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3711784"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3711784"
         },
         "neo_reference_id": "3711784",
         "name": "(2015 DO155)",
@@ -1570,36 +1574,37 @@
         "absolute_magnitude_h": 21.5,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.13321556669812903,
-            "estimated_diameter_max": 0.2978790627981737
+            "estimated_diameter_min": 0.13,
+            "estimated_diameter_max": 0.3
           },
           "meters": {
-            "estimated_diameter_min": 133.21556669812904,
-            "estimated_diameter_max": 297.8790627981737
+            "estimated_diameter_min": 133.22,
+            "estimated_diameter_max": 297.88
           },
           "miles": {
-            "estimated_diameter_min": 0.08277628989478314,
-            "estimated_diameter_max": 0.185093411129964
+            "estimated_diameter_min": 0.08,
+            "estimated_diameter_max": 0.19
           },
           "feet": {
-            "estimated_diameter_min": 437.05895984588966,
-            "estimated_diameter_max": 977.2935443907603
+            "estimated_diameter_min": 437.06,
+            "estimated_diameter_max": 977.29
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-03",
             "epoch_date_close_approach": 1428044400000,
             "relative_velocity": {
-              "kms": "9.96904008872635",
-              "kph": "35,888.544",
-              "mph": "22,299.746"
+              "kilometers_per_second": "9.97",
+              "kilometers_per_hour": "35888.54",
+              "miles_per_hour": "22299.75"
             },
             "miss_distance": {
-              "astronomical": "0.142350388424991",
-              "lunar": "55.374",
-              "kilometers": "21,295,316",
-              "miles": "13,232,296"
+              "astronomical": "0.14",
+              "lunar": "54.46",
+              "kilometers": "20943702",
+              "miles": "13013813"
             },
             "orbiting_body": "Earth"
           }
@@ -1607,9 +1612,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3712625"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3712625"
         },
         "neo_reference_id": "3712625",
         "name": "(2015 DC200)",
@@ -1617,36 +1621,37 @@
         "absolute_magnitude_h": 20.5,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.2111324447897142,
-            "estimated_diameter_max": 0.4721064988055223
+            "estimated_diameter_min": 0.21,
+            "estimated_diameter_max": 0.47
           },
           "meters": {
-            "estimated_diameter_min": 211.1324447897142,
-            "estimated_diameter_max": 472.1064988055223
+            "estimated_diameter_min": 211.13,
+            "estimated_diameter_max": 472.11
           },
           "miles": {
-            "estimated_diameter_min": 0.1311915783514295,
-            "estimated_diameter_max": 0.2933532872692862
+            "estimated_diameter_min": 0.13,
+            "estimated_diameter_max": 0.29
           },
           "feet": {
-            "estimated_diameter_min": 692.691770163886,
-            "estimated_diameter_max": 1548.90588554111
+            "estimated_diameter_min": 692.69,
+            "estimated_diameter_max": 1548.91
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-03",
             "epoch_date_close_approach": 1428044400000,
             "relative_velocity": {
-              "kms": "21.8191674521854",
-              "kph": "78,549.003",
-              "mph": "48,807.296"
+              "kilometers_per_second": "21.82",
+              "kilometers_per_hour": "78549",
+              "miles_per_hour": "48807.3"
             },
             "miss_distance": {
-              "astronomical": "0.358730952074179",
-              "lunar": "139.546",
-              "kilometers": "53,665,384",
-              "miles": "33,346,124"
+              "astronomical": "0.36",
+              "lunar": "140.04",
+              "kilometers": "53855236",
+              "miles": "33464092"
             },
             "orbiting_body": "Earth"
           }
@@ -1654,9 +1659,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3619459"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3619459"
         },
         "neo_reference_id": "3619459",
         "name": "(2012 XJ16)",
@@ -1664,36 +1668,37 @@
         "absolute_magnitude_h": 23.7,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.04836764882185334,
-            "estimated_diameter_max": 0.10815335067750169
+            "estimated_diameter_min": 0.05,
+            "estimated_diameter_max": 0.11
           },
           "meters": {
-            "estimated_diameter_min": 48.367648821853344,
-            "estimated_diameter_max": 108.15335067750169
+            "estimated_diameter_min": 48.37,
+            "estimated_diameter_max": 108.15
           },
           "miles": {
-            "estimated_diameter_min": 0.03005425431608383,
-            "estimated_diameter_max": 0.0672033556638299
+            "estimated_diameter_min": 0.03,
+            "estimated_diameter_max": 0.07
           },
           "feet": {
-            "estimated_diameter_min": 158.68651696068932,
-            "estimated_diameter_max": 354.83383903677463
+            "estimated_diameter_min": 158.69,
+            "estimated_diameter_max": 354.83
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-03",
             "epoch_date_close_approach": 1428044400000,
             "relative_velocity": {
-              "kms": "8.50727570276402",
-              "kph": "30,626.193",
-              "mph": "19,029.925"
+              "kilometers_per_second": "8.51",
+              "kilometers_per_hour": "30626.19",
+              "miles_per_hour": "19029.93"
             },
             "miss_distance": {
-              "astronomical": "0.286467117896749",
-              "lunar": "111.436",
-              "kilometers": "42,854,868",
-              "miles": "26,628,782"
+              "astronomical": "0.29",
+              "lunar": "112.81",
+              "kilometers": "43383380",
+              "miles": "26957184"
             },
             "orbiting_body": "Earth"
           }
@@ -1701,9 +1706,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3715497"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3715497"
         },
         "neo_reference_id": "3715497",
         "name": "(2015 GR)",
@@ -1711,36 +1715,37 @@
         "absolute_magnitude_h": 22.8,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.07320739893472838,
-            "estimated_diameter_max": 0.16369672047399836
+            "estimated_diameter_min": 0.07,
+            "estimated_diameter_max": 0.16
           },
           "meters": {
-            "estimated_diameter_min": 73.20739893472839,
-            "estimated_diameter_max": 163.69672047399837
+            "estimated_diameter_min": 73.21,
+            "estimated_diameter_max": 163.7
           },
           "miles": {
-            "estimated_diameter_min": 0.04548895468347111,
-            "estimated_diameter_max": 0.10171639489764883
+            "estimated_diameter_min": 0.05,
+            "estimated_diameter_max": 0.1
           },
           "feet": {
-            "estimated_diameter_min": 240.18176272101428,
-            "estimated_diameter_max": 537.0627483999128
+            "estimated_diameter_min": 240.18,
+            "estimated_diameter_max": 537.06
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-03",
             "epoch_date_close_approach": 1428044400000,
             "relative_velocity": {
-              "kms": "13.7504982902444",
-              "kph": "49,501.794",
-              "mph": "30,758.49"
+              "kilometers_per_second": "13.75",
+              "kilometers_per_hour": "49501.79",
+              "miles_per_hour": "30758.49"
             },
             "miss_distance": {
-              "astronomical": "0.112362531770497",
-              "lunar": "43.709",
-              "kilometers": "16,809,196",
-              "miles": "10,444,750"
+              "astronomical": "0.11",
+              "lunar": "42.79",
+              "kilometers": "16455766",
+              "miles": "10225139"
             },
             "orbiting_body": "Earth"
           }
@@ -1748,9 +1753,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3715536"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3715536"
         },
         "neo_reference_id": "3715536",
         "name": "(2015 GB6)",
@@ -1758,36 +1762,37 @@
         "absolute_magnitude_h": 26.5,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.013321556669812903,
-            "estimated_diameter_max": 0.029787906279817374
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.03
           },
           "meters": {
-            "estimated_diameter_min": 13.321556669812903,
-            "estimated_diameter_max": 29.787906279817374
+            "estimated_diameter_min": 13.32,
+            "estimated_diameter_max": 29.79
           },
           "miles": {
-            "estimated_diameter_min": 0.008277628989478314,
-            "estimated_diameter_max": 0.018509341112996403
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.02
           },
           "feet": {
-            "estimated_diameter_min": 43.70589598458897,
-            "estimated_diameter_max": 97.72935443907603
+            "estimated_diameter_min": 43.71,
+            "estimated_diameter_max": 97.73
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-03",
             "epoch_date_close_approach": 1428044400000,
             "relative_velocity": {
-              "kms": "11.7490239307464",
-              "kph": "42,296.486",
-              "mph": "26,281.392"
+              "kilometers_per_second": "11.75",
+              "kilometers_per_hour": "42296.49",
+              "miles_per_hour": "26281.39"
             },
             "miss_distance": {
-              "astronomical": "0.0221096819133104",
-              "lunar": "8.601",
-              "kilometers": "3,307,561.25",
-              "miles": "2,055,223.375"
+              "astronomical": "0.02",
+              "lunar": "7.78",
+              "kilometers": "2991957.25",
+              "miles": "1859116.12"
             },
             "orbiting_body": "Earth"
           }
@@ -1795,9 +1800,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3716435"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3716435"
         },
         "neo_reference_id": "3716435",
         "name": "(2015 HB1)",
@@ -1805,36 +1809,37 @@
         "absolute_magnitude_h": 24.2,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.038419789106426766,
-            "estimated_diameter_max": 0.08590926012317615
+            "estimated_diameter_min": 0.04,
+            "estimated_diameter_max": 0.09
           },
           "meters": {
-            "estimated_diameter_min": 38.41978910642677,
-            "estimated_diameter_max": 85.90926012317615
+            "estimated_diameter_min": 38.42,
+            "estimated_diameter_max": 85.91
           },
           "miles": {
-            "estimated_diameter_min": 0.023872942776849506,
-            "estimated_diameter_max": 0.053381522871998086
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.05
           },
           "feet": {
-            "estimated_diameter_min": 126.0491808919292,
-            "estimated_diameter_max": 281.85453698252127
+            "estimated_diameter_min": 126.05,
+            "estimated_diameter_max": 281.85
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-03",
             "epoch_date_close_approach": 1428044400000,
             "relative_velocity": {
-              "kms": "6.68329708571571",
-              "kph": "24,059.87",
-              "mph": "14,949.867"
+              "kilometers_per_second": "6.68",
+              "kilometers_per_hour": "24059.87",
+              "miles_per_hour": "14949.87"
             },
             "miss_distance": {
-              "astronomical": "0.143302248375635",
-              "lunar": "55.745",
-              "kilometers": "21,437,712",
-              "miles": "13,320,776"
+              "astronomical": "0.14",
+              "lunar": "54.46",
+              "kilometers": "20943702",
+              "miles": "13013813"
             },
             "orbiting_body": "Earth"
           }
@@ -1842,9 +1847,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/2399325"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/2399325"
         },
         "neo_reference_id": "2399325",
         "name": "399325 (1999 GY5)",
@@ -1852,36 +1856,37 @@
         "absolute_magnitude_h": 20,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.26580000000000004,
-            "estimated_diameter_max": 0.5943468684194442
+            "estimated_diameter_min": 0.27,
+            "estimated_diameter_max": 0.59
           },
           "meters": {
             "estimated_diameter_min": 265.8,
-            "estimated_diameter_max": 594.3468684194441
+            "estimated_diameter_max": 594.35
           },
           "miles": {
-            "estimated_diameter_min": 0.16516041180000002,
-            "estimated_diameter_max": 0.36930990797665847
+            "estimated_diameter_min": 0.17,
+            "estimated_diameter_max": 0.37
           },
           "feet": {
-            "estimated_diameter_min": 872.0472720000001,
-            "estimated_diameter_max": 1949.9569797852494
+            "estimated_diameter_min": 872.05,
+            "estimated_diameter_max": 1949.96
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-03",
             "epoch_date_close_approach": 1428044400000,
             "relative_velocity": {
-              "kms": "16.082241686426",
-              "kph": "57,896.07",
-              "mph": "35,974.366"
+              "kilometers_per_second": "16.08",
+              "kilometers_per_hour": "57896.07",
+              "miles_per_hour": "35974.37"
             },
             "miss_distance": {
-              "astronomical": "0.309593828034847",
-              "lunar": "120.432",
-              "kilometers": "46,314,576",
-              "miles": "28,778,544"
+              "astronomical": "0.31",
+              "lunar": "120.59",
+              "kilometers": "46375340",
+              "miles": "28816300"
             },
             "orbiting_body": "Earth"
           }
@@ -1891,9 +1896,8 @@
     ],
     "2015-04-02": [
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3715512"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3715512"
         },
         "neo_reference_id": "3715512",
         "name": "(2015 GF1)",
@@ -1901,36 +1905,37 @@
         "absolute_magnitude_h": 22.7,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.07665755735310517,
-            "estimated_diameter_max": 0.171411509230632
+            "estimated_diameter_min": 0.08,
+            "estimated_diameter_max": 0.17
           },
           "meters": {
-            "estimated_diameter_min": 76.65755735310518,
-            "estimated_diameter_max": 171.411509230632
+            "estimated_diameter_min": 76.66,
+            "estimated_diameter_max": 171.41
           },
           "miles": {
-            "estimated_diameter_min": 0.04763278307005631,
-            "estimated_diameter_max": 0.10651014090214704
+            "estimated_diameter_min": 0.05,
+            "estimated_diameter_max": 0.11
           },
           "feet": {
-            "estimated_diameter_min": 251.50118046636157,
-            "estimated_diameter_max": 562.3737359442267
+            "estimated_diameter_min": 251.5,
+            "estimated_diameter_max": 562.37
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-02",
             "epoch_date_close_approach": 1427958000000,
             "relative_velocity": {
-              "kms": "13.9642106073553",
-              "kph": "50,271.158",
-              "mph": "31,236.543"
+              "kilometers_per_second": "13.96",
+              "kilometers_per_hour": "50271.16",
+              "miles_per_hour": "31236.54"
             },
             "miss_distance": {
-              "astronomical": "0.0719700333621092",
-              "lunar": "27.996",
-              "kilometers": "10,766,563",
-              "miles": "6,690,032.5"
+              "astronomical": "0.07",
+              "lunar": "27.23",
+              "kilometers": "10471851",
+              "miles": "6506906.5"
             },
             "orbiting_body": "Earth"
           }
@@ -1938,9 +1943,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3713945"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3713945"
         },
         "neo_reference_id": "3713945",
         "name": "(2015 FZ33)",
@@ -1948,36 +1952,37 @@
         "absolute_magnitude_h": 22.9,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.06991252322457923,
-            "estimated_diameter_max": 0.15632915440869197
+            "estimated_diameter_min": 0.07,
+            "estimated_diameter_max": 0.16
           },
           "meters": {
-            "estimated_diameter_min": 69.91252322457923,
-            "estimated_diameter_max": 156.32915440869198
+            "estimated_diameter_min": 69.91,
+            "estimated_diameter_max": 156.33
           },
           "miles": {
-            "estimated_diameter_min": 0.043441614468580025,
-            "estimated_diameter_max": 0.09713840300408334
+            "estimated_diameter_min": 0.04,
+            "estimated_diameter_max": 0.1
           },
           "feet": {
-            "estimated_diameter_min": 229.37180269612855,
-            "estimated_diameter_max": 512.890942950213
+            "estimated_diameter_min": 229.37,
+            "estimated_diameter_max": 512.89
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-02",
             "epoch_date_close_approach": 1427958000000,
             "relative_velocity": {
-              "kms": "4.17698703546026",
-              "kph": "15,037.153",
-              "mph": "9,343.502"
+              "kilometers_per_second": "4.18",
+              "kilometers_per_hour": "15037.15",
+              "miles_per_hour": "9343.5"
             },
             "miss_distance": {
-              "astronomical": "0.263306470741082",
-              "lunar": "102.426",
-              "kilometers": "39,390,088",
-              "miles": "24,475,866"
+              "astronomical": "0.26",
+              "lunar": "101.14",
+              "kilometers": "38895444",
+              "miles": "24168510"
             },
             "orbiting_body": "Earth"
           }
@@ -1985,9 +1990,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3555791"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3555791"
         },
         "neo_reference_id": "3555791",
         "name": "(2011 BN24)",
@@ -1995,36 +1999,37 @@
         "absolute_magnitude_h": 20.9,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.17561231848041914,
-            "estimated_diameter_max": 0.39268108180855976
+            "estimated_diameter_min": 0.18,
+            "estimated_diameter_max": 0.39
           },
           "meters": {
-            "estimated_diameter_min": 175.61231848041913,
-            "estimated_diameter_max": 392.6810818085598
+            "estimated_diameter_min": 175.61,
+            "estimated_diameter_max": 392.68
           },
           "miles": {
-            "estimated_diameter_min": 0.10912040194649653,
-            "estimated_diameter_max": 0.2440006364844666
+            "estimated_diameter_min": 0.11,
+            "estimated_diameter_max": 0.24
           },
           "feet": {
-            "estimated_diameter_min": 576.1559189632984,
-            "estimated_diameter_max": 1288.3238004407954
+            "estimated_diameter_min": 576.16,
+            "estimated_diameter_max": 1288.32
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-02",
             "epoch_date_close_approach": 1427958000000,
             "relative_velocity": {
-              "kms": "16.000616531267",
-              "kph": "57,602.22",
-              "mph": "35,791.779"
+              "kilometers_per_second": "16",
+              "kilometers_per_hour": "57602.22",
+              "miles_per_hour": "35791.78"
             },
             "miss_distance": {
-              "astronomical": "0.215499119096231",
-              "lunar": "83.829",
-              "kilometers": "32,238,210",
-              "miles": "20,031,894"
+              "astronomical": "0.22",
+              "lunar": "85.58",
+              "kilometers": "32911532",
+              "miles": "20450278"
             },
             "orbiting_body": "Earth"
           }
@@ -2032,9 +2037,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3601666"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3601666"
         },
         "neo_reference_id": "3601666",
         "name": "(2012 FM35)",
@@ -2042,36 +2046,37 @@
         "absolute_magnitude_h": 27.3,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.009216265485028291,
-            "estimated_diameter_max": 0.02060819612320833
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.02
           },
           "meters": {
-            "estimated_diameter_min": 9.216265485028291,
-            "estimated_diameter_max": 20.60819612320833
+            "estimated_diameter_min": 9.22,
+            "estimated_diameter_max": 20.61
           },
           "miles": {
-            "estimated_diameter_min": 0.005726720100697515,
-            "estimated_diameter_max": 0.012805335433274084
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.01
           },
           "feet": {
-            "estimated_diameter_min": 30.23709245390022,
-            "estimated_diameter_max": 67.61219416886682
+            "estimated_diameter_min": 30.24,
+            "estimated_diameter_max": 67.61
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-02",
             "epoch_date_close_approach": 1427958000000,
             "relative_velocity": {
-              "kms": "11.9888680689952",
-              "kph": "43,159.925",
-              "mph": "26,817.899"
+              "kilometers_per_second": "11.99",
+              "kilometers_per_hour": "43159.93",
+              "miles_per_hour": "26817.9"
             },
             "miss_distance": {
-              "astronomical": "0.297540787834953",
-              "lunar": "115.743",
-              "kilometers": "44,511,468",
-              "miles": "27,658,144"
+              "astronomical": "0.3",
+              "lunar": "116.7",
+              "kilometers": "44879364",
+              "miles": "27886744"
             },
             "orbiting_body": "Earth"
           }
@@ -2079,9 +2084,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3719242"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3719242"
         },
         "neo_reference_id": "3719242",
         "name": "(2015 KJ)",
@@ -2089,36 +2093,37 @@
         "absolute_magnitude_h": 23.6,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.050647145883463036,
-            "estimated_diameter_max": 0.113250461061772
+            "estimated_diameter_min": 0.05,
+            "estimated_diameter_max": 0.11
           },
           "meters": {
-            "estimated_diameter_min": 50.64714588346304,
-            "estimated_diameter_max": 113.250461061772
+            "estimated_diameter_min": 50.65,
+            "estimated_diameter_max": 113.25
           },
           "miles": {
-            "estimated_diameter_min": 0.03147066768475331,
-            "estimated_diameter_max": 0.07037055224041433
+            "estimated_diameter_min": 0.03,
+            "estimated_diameter_max": 0.07
           },
           "feet": {
-            "estimated_diameter_min": 166.16518210030088,
-            "estimated_diameter_max": 371.5566426699041
+            "estimated_diameter_min": 166.17,
+            "estimated_diameter_max": 371.56
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-02",
             "epoch_date_close_approach": 1427958000000,
             "relative_velocity": {
-              "kms": "5.63676605597972",
-              "kph": "20,292.358",
-              "mph": "12,608.882"
+              "kilometers_per_second": "5.64",
+              "kilometers_per_hour": "20292.36",
+              "miles_per_hour": "12608.88"
             },
             "miss_distance": {
-              "astronomical": "0.0893566640599995",
-              "lunar": "34.76",
-              "kilometers": "13,367,566",
-              "miles": "8,306,220.5"
+              "astronomical": "0.09",
+              "lunar": "35.01",
+              "kilometers": "13463809",
+              "miles": "8366023"
             },
             "orbiting_body": "Earth"
           }
@@ -2126,9 +2131,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3358222"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3358222"
         },
         "neo_reference_id": "3358222",
         "name": "(2006 VX2)",
@@ -2136,36 +2140,37 @@
         "absolute_magnitude_h": 24.9,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.027832676807192938,
-            "estimated_diameter_max": 0.06223575733666522
+            "estimated_diameter_min": 0.03,
+            "estimated_diameter_max": 0.06
           },
           "meters": {
-            "estimated_diameter_min": 27.83267680719294,
-            "estimated_diameter_max": 62.235757336665216
+            "estimated_diameter_min": 27.83,
+            "estimated_diameter_max": 62.24
           },
           "miles": {
-            "estimated_diameter_min": 0.017294418220362283,
-            "estimated_diameter_max": 0.038671494772041
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.04
           },
           "feet": {
-            "estimated_diameter_min": 91.31455937611088,
-            "estimated_diameter_max": 204.18556210042473
+            "estimated_diameter_min": 91.31,
+            "estimated_diameter_max": 204.19
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-02",
             "epoch_date_close_approach": 1427958000000,
             "relative_velocity": {
-              "kms": "12.2349898841027",
-              "kph": "44,045.964",
-              "mph": "27,368.449"
+              "kilometers_per_second": "12.23",
+              "kilometers_per_hour": "44045.96",
+              "miles_per_hour": "27368.45"
             },
             "miss_distance": {
-              "astronomical": "0.338720726397313",
-              "lunar": "131.762",
-              "kilometers": "50,671,900",
-              "miles": "31,486,060"
+              "astronomical": "0.34",
+              "lunar": "132.26",
+              "kilometers": "50863276",
+              "miles": "31604976"
             },
             "orbiting_body": "Earth"
           }
@@ -2175,9 +2180,8 @@
     ],
     "2015-04-01": [
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3714458"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3714458"
         },
         "neo_reference_id": "3714458",
         "name": "(2015 FW117)",
@@ -2185,36 +2189,37 @@
         "absolute_magnitude_h": 22.7,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.07665755735310517,
-            "estimated_diameter_max": 0.171411509230632
+            "estimated_diameter_min": 0.08,
+            "estimated_diameter_max": 0.17
           },
           "meters": {
-            "estimated_diameter_min": 76.65755735310518,
-            "estimated_diameter_max": 171.411509230632
+            "estimated_diameter_min": 76.66,
+            "estimated_diameter_max": 171.41
           },
           "miles": {
-            "estimated_diameter_min": 0.04763278307005631,
-            "estimated_diameter_max": 0.10651014090214704
+            "estimated_diameter_min": 0.05,
+            "estimated_diameter_max": 0.11
           },
           "feet": {
-            "estimated_diameter_min": 251.50118046636157,
-            "estimated_diameter_max": 562.3737359442267
+            "estimated_diameter_min": 251.5,
+            "estimated_diameter_max": 562.37
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-01",
             "epoch_date_close_approach": 1427871600000,
             "relative_velocity": {
-              "kms": "18.729094379135",
-              "kph": "67,424.74",
-              "mph": "41,895.111"
+              "kilometers_per_second": "18.73",
+              "kilometers_per_hour": "67424.74",
+              "miles_per_hour": "41895.11"
             },
             "miss_distance": {
-              "astronomical": "0.00921949538903053",
-              "lunar": "3.586",
-              "kilometers": "1,379,216.875",
-              "miles": "857,005.688"
+              "astronomical": "0.01",
+              "lunar": "3.89",
+              "kilometers": "1495978.62",
+              "miles": "929558.06"
             },
             "orbiting_body": "Earth"
           }
@@ -2222,9 +2227,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3715092"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3715092"
         },
         "neo_reference_id": "3715092",
         "name": "(2015 FW284)",
@@ -2232,36 +2236,37 @@
         "absolute_magnitude_h": 24.7,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.03051792325938718,
-            "estimated_diameter_max": 0.06824015094011168
+            "estimated_diameter_min": 0.03,
+            "estimated_diameter_max": 0.07
           },
           "meters": {
-            "estimated_diameter_min": 30.51792325938718,
-            "estimated_diameter_max": 68.24015094011168
+            "estimated_diameter_min": 30.52,
+            "estimated_diameter_max": 68.24
           },
           "miles": {
-            "estimated_diameter_min": 0.018962952493608673,
-            "estimated_diameter_max": 0.04240245082980813
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.04
           },
           "feet": {
-            "estimated_diameter_min": 100.12442334632784,
-            "estimated_diameter_max": 223.88501681035603
+            "estimated_diameter_min": 100.12,
+            "estimated_diameter_max": 223.89
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-01",
             "epoch_date_close_approach": 1427871600000,
             "relative_velocity": {
-              "kms": "14.8470195081845",
-              "kph": "53,449.27",
-              "mph": "33,211.298"
+              "kilometers_per_second": "14.85",
+              "kilometers_per_hour": "53449.27",
+              "miles_per_hour": "33211.3"
             },
             "miss_distance": {
-              "astronomical": "0.0296114870505638",
-              "lunar": "11.519",
-              "kilometers": "4,429,815.5",
-              "miles": "2,752,559.75"
+              "astronomical": "0.03",
+              "lunar": "11.67",
+              "kilometers": "4487936",
+              "miles": "2788674.25"
             },
             "orbiting_body": "Earth"
           }
@@ -2269,9 +2274,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3684638"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3684638"
         },
         "neo_reference_id": "3684638",
         "name": "(2014 QD364)",
@@ -2279,36 +2283,37 @@
         "absolute_magnitude_h": 27.2,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.009650614695789305,
-            "estimated_diameter_max": 0.02157943048444334
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.02
           },
           "meters": {
-            "estimated_diameter_min": 9.650614695789304,
-            "estimated_diameter_max": 21.57943048444334
+            "estimated_diameter_min": 9.65,
+            "estimated_diameter_max": 21.58
           },
           "miles": {
-            "estimated_diameter_min": 0.005996612104137296,
-            "estimated_diameter_max": 0.013408832299549043
+            "estimated_diameter_min": 0.01,
+            "estimated_diameter_max": 0.01
           },
           "feet": {
-            "estimated_diameter_min": 31.662122718533382,
-            "estimated_diameter_max": 70.7986587105811
+            "estimated_diameter_min": 31.66,
+            "estimated_diameter_max": 70.8
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-01",
             "epoch_date_close_approach": 1427871600000,
             "relative_velocity": {
-              "kms": "2.33379066560081",
-              "kph": "8,401.646",
-              "mph": "5,220.456"
+              "kilometers_per_second": "2.33",
+              "kilometers_per_hour": "8401.65",
+              "miles_per_hour": "5220.46"
             },
             "miss_distance": {
-              "astronomical": "0.0680332892524809",
-              "lunar": "26.465",
-              "kilometers": "10,177,636",
-              "miles": "6,324,089.5"
+              "astronomical": "0.07",
+              "lunar": "27.23",
+              "kilometers": "10471851",
+              "miles": "6506906.5"
             },
             "orbiting_body": "Earth"
           }
@@ -2316,9 +2321,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3645649"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3645649"
         },
         "neo_reference_id": "3645649",
         "name": "(2013 PY38)",
@@ -2326,36 +2330,37 @@
         "absolute_magnitude_h": 24.7,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.03051792325938718,
-            "estimated_diameter_max": 0.06824015094011168
+            "estimated_diameter_min": 0.03,
+            "estimated_diameter_max": 0.07
           },
           "meters": {
-            "estimated_diameter_min": 30.51792325938718,
-            "estimated_diameter_max": 68.24015094011168
+            "estimated_diameter_min": 30.52,
+            "estimated_diameter_max": 68.24
           },
           "miles": {
-            "estimated_diameter_min": 0.018962952493608673,
-            "estimated_diameter_max": 0.04240245082980813
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.04
           },
           "feet": {
-            "estimated_diameter_min": 100.12442334632784,
-            "estimated_diameter_max": 223.88501681035603
+            "estimated_diameter_min": 100.12,
+            "estimated_diameter_max": 223.89
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-01",
             "epoch_date_close_approach": 1427871600000,
             "relative_velocity": {
-              "kms": "3.23495972227603",
-              "kph": "11,645.855",
-              "mph": "7,236.281"
+              "kilometers_per_second": "3.23",
+              "kilometers_per_hour": "11645.86",
+              "miles_per_hour": "7236.28"
             },
             "miss_distance": {
-              "astronomical": "0.160226050180061",
-              "lunar": "62.328",
-              "kilometers": "23,969,476",
-              "miles": "14,893,942"
+              "astronomical": "0.16",
+              "lunar": "62.24",
+              "kilometers": "23935658",
+              "miles": "14872929"
             },
             "orbiting_body": "Earth"
           }
@@ -2363,9 +2368,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3715096"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3715096"
         },
         "neo_reference_id": "3715096",
         "name": "(2015 FZ284)",
@@ -2373,36 +2377,37 @@
         "absolute_magnitude_h": 23.6,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.050647145883463036,
-            "estimated_diameter_max": 0.113250461061772
+            "estimated_diameter_min": 0.05,
+            "estimated_diameter_max": 0.11
           },
           "meters": {
-            "estimated_diameter_min": 50.64714588346304,
-            "estimated_diameter_max": 113.250461061772
+            "estimated_diameter_min": 50.65,
+            "estimated_diameter_max": 113.25
           },
           "miles": {
-            "estimated_diameter_min": 0.03147066768475331,
-            "estimated_diameter_max": 0.07037055224041433
+            "estimated_diameter_min": 0.03,
+            "estimated_diameter_max": 0.07
           },
           "feet": {
-            "estimated_diameter_min": 166.16518210030088,
-            "estimated_diameter_max": 371.5566426699041
+            "estimated_diameter_min": 166.17,
+            "estimated_diameter_max": 371.56
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-01",
             "epoch_date_close_approach": 1427871600000,
             "relative_velocity": {
-              "kms": "14.8524150080857",
-              "kph": "53,468.694",
-              "mph": "33,223.367"
+              "kilometers_per_second": "14.85",
+              "kilometers_per_hour": "53468.69",
+              "miles_per_hour": "33223.37"
             },
             "miss_distance": {
-              "astronomical": "0.0994780681132932",
-              "lunar": "38.697",
-              "kilometers": "14,881,707",
-              "miles": "9,247,064"
+              "astronomical": "0.1",
+              "lunar": "38.9",
+              "kilometers": "14959787",
+              "miles": "9295581"
             },
             "orbiting_body": "Earth"
           }
@@ -2410,9 +2415,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3608784"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3608784"
         },
         "neo_reference_id": "3608784",
         "name": "(2012 SK8)",
@@ -2420,36 +2424,37 @@
         "absolute_magnitude_h": 20.5,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.2111324447897142,
-            "estimated_diameter_max": 0.4721064988055223
+            "estimated_diameter_min": 0.21,
+            "estimated_diameter_max": 0.47
           },
           "meters": {
-            "estimated_diameter_min": 211.1324447897142,
-            "estimated_diameter_max": 472.1064988055223
+            "estimated_diameter_min": 211.13,
+            "estimated_diameter_max": 472.11
           },
           "miles": {
-            "estimated_diameter_min": 0.1311915783514295,
-            "estimated_diameter_max": 0.2933532872692862
+            "estimated_diameter_min": 0.13,
+            "estimated_diameter_max": 0.29
           },
           "feet": {
-            "estimated_diameter_min": 692.691770163886,
-            "estimated_diameter_max": 1548.90588554111
+            "estimated_diameter_min": 692.69,
+            "estimated_diameter_max": 1548.91
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-01",
             "epoch_date_close_approach": 1427871600000,
             "relative_velocity": {
-              "kms": "12.572363074639",
-              "kph": "45,260.507",
-              "mph": "28,123.119"
+              "kilometers_per_second": "12.57",
+              "kilometers_per_hour": "45260.51",
+              "miles_per_hour": "28123.12"
             },
             "miss_distance": {
-              "astronomical": "0.456523323078197",
-              "lunar": "177.588",
-              "kilometers": "68,294,920",
-              "miles": "42,436,496"
+              "astronomical": "0.46",
+              "lunar": "178.94",
+              "kilometers": "68815024",
+              "miles": "42759672"
             },
             "orbiting_body": "Earth"
           }
@@ -2457,9 +2462,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3404530"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3404530"
         },
         "neo_reference_id": "3404530",
         "name": "(2008 EP)",
@@ -2467,36 +2471,37 @@
         "absolute_magnitude_h": 24.2,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.038419789106426766,
-            "estimated_diameter_max": 0.08590926012317615
+            "estimated_diameter_min": 0.04,
+            "estimated_diameter_max": 0.09
           },
           "meters": {
-            "estimated_diameter_min": 38.41978910642677,
-            "estimated_diameter_max": 85.90926012317615
+            "estimated_diameter_min": 38.42,
+            "estimated_diameter_max": 85.91
           },
           "miles": {
-            "estimated_diameter_min": 0.023872942776849506,
-            "estimated_diameter_max": 0.053381522871998086
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.05
           },
           "feet": {
-            "estimated_diameter_min": 126.0491808919292,
-            "estimated_diameter_max": 281.85453698252127
+            "estimated_diameter_min": 126.05,
+            "estimated_diameter_max": 281.85
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-01",
             "epoch_date_close_approach": 1427871600000,
             "relative_velocity": {
-              "kms": "9.5729714719957",
-              "kph": "34,462.697",
-              "mph": "21,413.78"
+              "kilometers_per_second": "9.57",
+              "kilometers_per_hour": "34462.7",
+              "miles_per_hour": "21413.78"
             },
             "miss_distance": {
-              "astronomical": "0.180822072996897",
-              "lunar": "70.34",
-              "kilometers": "27,050,598",
-              "miles": "16,808,462"
+              "astronomical": "0.18",
+              "lunar": "70.02",
+              "kilometers": "26927618",
+              "miles": "16732046"
             },
             "orbiting_body": "Earth"
           }
@@ -2504,9 +2509,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3434369"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3434369"
         },
         "neo_reference_id": "3434369",
         "name": "(2008 UW91)",
@@ -2514,36 +2518,37 @@
         "absolute_magnitude_h": 21.6,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.12721987853935718,
-            "estimated_diameter_max": 0.28447229650326933
+            "estimated_diameter_min": 0.13,
+            "estimated_diameter_max": 0.28
           },
           "meters": {
-            "estimated_diameter_min": 127.21987853935718,
-            "estimated_diameter_max": 284.4722965032693
+            "estimated_diameter_min": 127.22,
+            "estimated_diameter_max": 284.47
           },
           "miles": {
-            "estimated_diameter_min": 0.07905074314787891,
-            "estimated_diameter_max": 0.17676283535053297
+            "estimated_diameter_min": 0.08,
+            "estimated_diameter_max": 0.18
           },
           "feet": {
-            "estimated_diameter_min": 417.3880663070646,
-            "estimated_diameter_max": 933.3080892597861
+            "estimated_diameter_min": 417.39,
+            "estimated_diameter_max": 933.31
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-01",
             "epoch_date_close_approach": 1427871600000,
             "relative_velocity": {
-              "kms": "22.2531871969523",
-              "kph": "80,111.474",
-              "mph": "49,778.154"
+              "kilometers_per_second": "22.25",
+              "kilometers_per_hour": "80111.47",
+              "miles_per_hour": "49778.15"
             },
             "miss_distance": {
-              "astronomical": "0.499695667680924",
-              "lunar": "194.382",
-              "kilometers": "74,753,408",
-              "miles": "46,449,612"
+              "astronomical": "0.5",
+              "lunar": "194.5",
+              "kilometers": "74798936",
+              "miles": "46477904"
             },
             "orbiting_body": "Earth"
           }
@@ -2551,9 +2556,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3713948"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3713948"
         },
         "neo_reference_id": "3713948",
         "name": "(2015 FC34)",
@@ -2561,36 +2565,37 @@
         "absolute_magnitude_h": 23,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.0667659413495247,
-            "estimated_diameter_max": 0.14929318343930126
+            "estimated_diameter_min": 0.07,
+            "estimated_diameter_max": 0.15
           },
           "meters": {
-            "estimated_diameter_min": 66.7659413495247,
-            "estimated_diameter_max": 149.29318343930126
+            "estimated_diameter_min": 66.77,
+            "estimated_diameter_max": 149.29
           },
           "miles": {
-            "estimated_diameter_min": 0.04148641974229551,
-            "estimated_diameter_max": 0.09276645468686207
+            "estimated_diameter_min": 0.04,
+            "estimated_diameter_max": 0.09
           },
           "feet": {
-            "estimated_diameter_min": 219.04837101717462,
-            "estimated_diameter_max": 489.8070479549972
+            "estimated_diameter_min": 219.05,
+            "estimated_diameter_max": 489.81
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-01",
             "epoch_date_close_approach": 1427871600000,
             "relative_velocity": {
-              "kms": "15.8685217446796",
-              "kph": "57,126.678",
-              "mph": "35,496.296"
+              "kilometers_per_second": "15.87",
+              "kilometers_per_hour": "57126.68",
+              "miles_per_hour": "35496.3"
             },
             "miss_distance": {
-              "astronomical": "0.0650327620185501",
-              "lunar": "25.298",
-              "kilometers": "9,728,763",
-              "miles": "6,045,173"
+              "astronomical": "0.07",
+              "lunar": "27.23",
+              "kilometers": "10471851",
+              "miles": "6506906.5"
             },
             "orbiting_body": "Earth"
           }
@@ -2598,9 +2603,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3714589"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3714589"
         },
         "neo_reference_id": "3714589",
         "name": "(2015 FP124)",
@@ -2608,36 +2612,37 @@
         "absolute_magnitude_h": 22.2,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.09650614695789304,
-            "estimated_diameter_max": 0.21579430484443338
+            "estimated_diameter_min": 0.1,
+            "estimated_diameter_max": 0.22
           },
           "meters": {
-            "estimated_diameter_min": 96.50614695789304,
-            "estimated_diameter_max": 215.79430484443338
+            "estimated_diameter_min": 96.51,
+            "estimated_diameter_max": 215.79
           },
           "miles": {
-            "estimated_diameter_min": 0.05996612104137296,
-            "estimated_diameter_max": 0.13408832299549042
+            "estimated_diameter_min": 0.06,
+            "estimated_diameter_max": 0.13
           },
           "feet": {
-            "estimated_diameter_min": 316.62122718533385,
-            "estimated_diameter_max": 707.9865871058108
+            "estimated_diameter_min": 316.62,
+            "estimated_diameter_max": 707.99
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-01",
             "epoch_date_close_approach": 1427871600000,
             "relative_velocity": {
-              "kms": "17.0420279840841",
-              "kph": "61,351.301",
-              "mph": "38,121.312"
+              "kilometers_per_second": "17.04",
+              "kilometers_per_hour": "61351.3",
+              "miles_per_hour": "38121.31"
             },
             "miss_distance": {
-              "astronomical": "0.0743581652653189",
-              "lunar": "28.925",
-              "kilometers": "11,123,823",
-              "miles": "6,912,023.5"
+              "astronomical": "0.07",
+              "lunar": "27.23",
+              "kilometers": "10471851",
+              "miles": "6506906.5"
             },
             "orbiting_body": "Earth"
           }
@@ -2645,9 +2650,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3715740"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3715740"
         },
         "neo_reference_id": "3715740",
         "name": "(2015 GK13)",
@@ -2655,36 +2659,37 @@
         "absolute_magnitude_h": 25.1,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.025383702936449738,
-            "estimated_diameter_max": 0.05675968528656264
+            "estimated_diameter_min": 0.03,
+            "estimated_diameter_max": 0.06
           },
           "meters": {
-            "estimated_diameter_min": 25.383702936449737,
-            "estimated_diameter_max": 56.759685286562636
+            "estimated_diameter_min": 25.38,
+            "estimated_diameter_max": 56.76
           },
           "miles": {
-            "estimated_diameter_min": 0.015772696877324712,
-            "estimated_diameter_max": 0.03526882240619671
+            "estimated_diameter_min": 0.02,
+            "estimated_diameter_max": 0.04
           },
           "feet": {
-            "estimated_diameter_min": 83.27986794202177,
-            "estimated_diameter_max": 186.21944587556618
+            "estimated_diameter_min": 83.28,
+            "estimated_diameter_max": 186.22
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-01",
             "epoch_date_close_approach": 1427871600000,
             "relative_velocity": {
-              "kms": "6.6719089755869",
-              "kph": "24,018.872",
-              "mph": "14,924.393"
+              "kilometers_per_second": "6.67",
+              "kilometers_per_hour": "24018.87",
+              "miles_per_hour": "14924.39"
             },
             "miss_distance": {
-              "astronomical": "0.109937219228278",
-              "lunar": "42.766",
-              "kilometers": "16,446,374",
-              "miles": "10,219,303"
+              "astronomical": "0.11",
+              "lunar": "42.79",
+              "kilometers": "16455766",
+              "miles": "10225139"
             },
             "orbiting_body": "Earth"
           }
@@ -2692,9 +2697,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/3716473"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/3716473"
         },
         "neo_reference_id": "3716473",
         "name": "(2015 GJ46)",
@@ -2702,36 +2706,37 @@
         "absolute_magnitude_h": 19.3,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.3669061375314465,
-            "estimated_diameter_max": 0.8204270648822013
+            "estimated_diameter_min": 0.37,
+            "estimated_diameter_max": 0.82
           },
           "meters": {
-            "estimated_diameter_min": 366.9061375314465,
-            "estimated_diameter_max": 820.4270648822013
+            "estimated_diameter_min": 366.91,
+            "estimated_diameter_max": 820.43
           },
           "miles": {
-            "estimated_diameter_min": 0.22798483358405247,
-            "estimated_diameter_max": 0.5097895857329183
+            "estimated_diameter_min": 0.23,
+            "estimated_diameter_max": 0.51
           },
           "feet": {
-            "estimated_diameter_min": 1203.760332258671,
-            "estimated_diameter_max": 2691.6899315481214
+            "estimated_diameter_min": 1203.76,
+            "estimated_diameter_max": 2691.69
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-01",
             "epoch_date_close_approach": 1427871600000,
             "relative_velocity": {
-              "kms": "25.7715659398639",
-              "kph": "92,777.637",
-              "mph": "57,648.416"
+              "kilometers_per_second": "25.77",
+              "kilometers_per_hour": "92777.64",
+              "miles_per_hour": "57648.42"
             },
             "miss_distance": {
-              "astronomical": "0.366769490476901",
-              "lunar": "142.673",
-              "kilometers": "54,867,936",
-              "miles": "34,093,356"
+              "astronomical": "0.37",
+              "lunar": "143.93",
+              "kilometers": "55351212",
+              "miles": "34393648"
             },
             "orbiting_body": "Earth"
           }
@@ -2739,9 +2744,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/2162080"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/2162080"
         },
         "neo_reference_id": "2162080",
         "name": "162080 (1998 DG16)",
@@ -2749,36 +2753,37 @@
         "absolute_magnitude_h": 19.9,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.2783267680719294,
-            "estimated_diameter_max": 0.6223575733666522
+            "estimated_diameter_min": 0.28,
+            "estimated_diameter_max": 0.62
           },
           "meters": {
-            "estimated_diameter_min": 278.3267680719294,
-            "estimated_diameter_max": 622.3575733666522
+            "estimated_diameter_min": 278.33,
+            "estimated_diameter_max": 622.36
           },
           "miles": {
-            "estimated_diameter_min": 0.17294418220362284,
-            "estimated_diameter_max": 0.38671494772041004
+            "estimated_diameter_min": 0.17,
+            "estimated_diameter_max": 0.39
           },
           "feet": {
-            "estimated_diameter_min": 913.1455937611089,
-            "estimated_diameter_max": 2041.8556210042473
+            "estimated_diameter_min": 913.15,
+            "estimated_diameter_max": 2041.86
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-01",
             "epoch_date_close_approach": 1427871600000,
             "relative_velocity": {
-              "kms": "11.1475381750326",
-              "kph": "40,131.137",
-              "mph": "24,935.928"
+              "kilometers_per_second": "11.15",
+              "kilometers_per_hour": "40131.14",
+              "miles_per_hour": "24935.93"
             },
             "miss_distance": {
-              "astronomical": "0.190149811799742",
-              "lunar": "73.968",
-              "kilometers": "28,446,008",
-              "miles": "17,675,530"
+              "astronomical": "0.19",
+              "lunar": "73.91",
+              "kilometers": "28423596",
+              "miles": "17661604"
             },
             "orbiting_body": "Earth"
           }
@@ -2786,9 +2791,8 @@
         "orbital_data": null
       },
       {
-        "isPotentiallyHazardousAsteroid": false,
-        "link": {
-          "href": "http://www.neowsapp.com/rest/v1/neo/2423709"
+        "links": {
+          "self": "http://www.neowsapp.com/rest/v1/neo/2423709"
         },
         "neo_reference_id": "2423709",
         "name": "423709 (2006 BQ6)",
@@ -2796,36 +2800,37 @@
         "absolute_magnitude_h": 19.7,
         "estimated_diameter": {
           "kilometers": {
-            "estimated_diameter_min": 0.3051792325938715,
-            "estimated_diameter_max": 0.6824015094011161
+            "estimated_diameter_min": 0.31,
+            "estimated_diameter_max": 0.68
           },
           "meters": {
-            "estimated_diameter_min": 305.17923259387146,
-            "estimated_diameter_max": 682.4015094011161
+            "estimated_diameter_min": 305.18,
+            "estimated_diameter_max": 682.4
           },
           "miles": {
-            "estimated_diameter_min": 0.1896295249360865,
-            "estimated_diameter_max": 0.4240245082980809
+            "estimated_diameter_min": 0.19,
+            "estimated_diameter_max": 0.42
           },
           "feet": {
-            "estimated_diameter_min": 1001.2442334632773,
-            "estimated_diameter_max": 2238.8501681035577
+            "estimated_diameter_min": 1001.24,
+            "estimated_diameter_max": 2238.85
           }
         },
+        "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
             "close_approach_date": "2015-04-01",
             "epoch_date_close_approach": 1427871600000,
             "relative_velocity": {
-              "kms": "9.41374187906916",
-              "kph": "33,889.471",
-              "mph": "21,057.599"
+              "kilometers_per_second": "9.41",
+              "kilometers_per_hour": "33889.47",
+              "miles_per_hour": "21057.6"
             },
             "miss_distance": {
-              "astronomical": "0.213660004288756",
-              "lunar": "83.114",
-              "kilometers": "31,963,082",
-              "miles": "19,860,938"
+              "astronomical": "0.21",
+              "lunar": "81.69",
+              "kilometers": "31415552",
+              "miles": "19520720"
             },
             "orbiting_body": "Earth"
           }
@@ -2833,16 +2838,5 @@
         "orbital_data": null
       }
     ]
-  },
-  "_links": {
-    "self": {
-      "href": "http://www.neowsapp.com/rest/v1/feed?start_date=2015-04-01&end_date=2015-04-06"
-    },
-    "next": {
-      "href": "http://www.neowsapp.com/rest/v1/feed?start_date=2015-04-06&end_date=2015-04-13"
-    },
-    "prev": {
-      "href": "http://www.neowsapp.com/rest/v1/feed?start_date=2015-03-25&end_date=2015-04-01"
-    }
   }
 }

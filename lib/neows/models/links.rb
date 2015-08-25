@@ -1,21 +1,21 @@
 require 'virtus'
 require 'neows/models/base_model'
-require 'neows/models/link'
+require 'neows/models/self_link'
 
 module Neows
   module Models
     class Links < Neows::Models::BaseModel
       # @!attribute [rw]
-      # @return [Neows::Models::Link]
-      attribute :self, Neows::Models::Link
+      # @return [String]
+      attribute :self, String
 
       # @!attribute [rw]
-      # @return [Neows::Models::Link]
-      attribute :next, Neows::Models::Link
+      # @return [String]
+      attribute :next, String
 
       # @!attribute [rw]
-      # @return [Neows::Models::Link]
-      attribute :prev, Neows::Models::Link
+      # @return [String]
+      attribute :prev, String
     end
   end
 end

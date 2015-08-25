@@ -11,21 +11,20 @@ module Neows
 
       # @!attribute [rw] links
       # @return [Neows::Models::Links]
-      attribute :_links, Neows::Models::Links
-      alias_method :links, :_links
+      attribute :links, Neows::Models::Links
 
       # Request the objects next results
       #
       # @return [self]
       def next
-        perform_get(links.next.href, self.class)
+        perform_get(links.next, self.class)
       end
 
       # Request the objects previous results
       #
       # @return [self]
       def prev
-        perform_get(links.prev.href, self.class)
+        perform_get(links.prev, self.class)
       end
     end
   end

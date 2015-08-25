@@ -2,14 +2,14 @@ require 'neows/models/base_model'
 require 'neows/models/close_approach_data'
 require 'neows/models/estimated_diameter'
 require 'neows/models/orbital_data'
+require 'neows/models/self_link'
 
 module Neows
   module Models
     class NearEarthObject < Neows::Models::BaseModel
-      attribute :isPotentiallyHazardousAsteroid, Boolean
       # @!attribute [rw]
       # @return [Boolean]
-      alias_method :is_potentially_hazardous_asteroid, :isPotentiallyHazardousAsteroid
+      attribute :is_potentially_hazardous_asteroid, Boolean
 
       # @!attribute [rw]
       # @return [Integer]
@@ -38,6 +38,10 @@ module Neows
       # @!attribute [rw]
       # @return [Neows::Models::OrbitalData]
       attribute :orbital_data, Neows::Models::OrbitalData
+
+      # @!attribute [rw]
+      # @return [Neows::Models::SelfLink]
+      attribute :links, Neows::Models::SelfLink
     end
   end
 end
