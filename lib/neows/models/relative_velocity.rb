@@ -7,7 +7,7 @@ module Neows
       # @!attribute [rw]
       # @return [Float]
       attribute :kilometers_per_second, Float
-      alias_method :kps, :kilometers_per_second
+      alias_method :kms, :kilometers_per_second
 
       # @!attribute [rw]
       # @return [Float]
